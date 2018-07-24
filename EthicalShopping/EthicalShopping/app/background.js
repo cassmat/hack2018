@@ -4,9 +4,13 @@
 
 'use strict';
 
-chrome.runtime.onInstalled.addListener(function() {
-  console.log("Extension has started.");
-  //Here we can add what pages we want it to show up on
+chrome.runtime.onInstalled.addListener(function () {
+  // redirects to developer page on install
+  var newURL = "https://developer.chrome.com/";
+  chrome.tabs.create({ url: newURL });
+  chrome.storage.sync.set({color: '#3aa757'}, function() {
+    console.log("The color is green.");
+  });
   chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
     chrome.declarativeContent.onPageChanged.addRules([{
       conditions: [new chrome.declarativeContent.PageStateMatcher({
