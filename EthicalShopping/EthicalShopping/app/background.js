@@ -18,6 +18,9 @@ chrome.runtime.onInstalled.addListener(function () {
       ],
         actions: [new chrome.declarativeContent.ShowPageAction()]
     }]);
+    getCompanyData("Bunnings", function(val){
+      console.log(val)
+    })
   });
 });
 
@@ -26,10 +29,12 @@ function storeCompanyData(){
   fetch(chrome.extension.getURL('/company_data.json'))
         .then((resp) => resp.json())
         .then(function (jsonData) {
+          var company_list = []
           var data = jsonData["data"];
           for (var i = 0; i < data.length; i++)
           {
             var obj = data[i]
+            company_list.push(obj["company"])
             var key = "COMPANY_" + obj["company"];
             var value = {"rating": obj["rating"], "category": obj["category"],
             "praise" : obj["praise"], "criticism": obj["criticism"], "information" : obj["information"]};
@@ -37,6 +42,7 @@ function storeCompanyData(){
             objToStore[key] = value;
             chrome.storage.local.set(objToStore);
           }
+          chrome.storage.local.set({"companyList" : company_list});
         })
 }
 
@@ -47,4 +53,10 @@ function getCompanyData(key, callback) {
       callback(obj);
     })
   }
+}
+
+function getCompanyList(callback) {
+  chrome.storage.local.get(["companyList"], function(obj) {
+    callback(obj);
+  })
 }
