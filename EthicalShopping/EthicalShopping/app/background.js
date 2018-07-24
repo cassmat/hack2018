@@ -17,7 +17,22 @@ chrome.runtime.onInstalled.addListener(function () {
         pageUrl: {hostEquals: 'developer.chrome.com'},
       })
       ],
-        actions: [new chrome.declarativeContent.ShowPageAction()]
+      actions: []
     }]);
   });
 });
+
+chrome.browserAction.onClicked.addListener(function () {
+    chrome.browserAction.setPopup({ "popup": "popup.html" });
+});
+
+chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
+    var domains = ['google.com', 'yahoo.com', 'https://www.google.com/maps', 'https://www.katespade.com/'];
+    for (domain in domains) {
+        if (changeInfo.url.includes("google.com")) {
+            chrome.browserAction.setBadgeText({ text: "Y" });
+        } else {
+            chrome.browserAction.setBadgeText({ text: "" });
+        }
+    }
+}); 
