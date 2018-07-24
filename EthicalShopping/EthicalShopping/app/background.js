@@ -4,7 +4,10 @@
 
 'use strict';
 
-chrome.runtime.onInstalled.addListener(function() {
+chrome.runtime.onInstalled.addListener(function () {
+  // redirects to developer page on install
+  var newURL = "https://developer.chrome.com/";
+  chrome.tabs.create({ url: newURL });
   chrome.storage.sync.set({color: '#3aa757'}, function() {
     console.log("The color is green.");
   });
