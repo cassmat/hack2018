@@ -31,7 +31,7 @@ getData("companyToData", function(val){
 
 function addPraises(arr) {
     var parentNode = document.getElementById("Praise_Dynamic_List");
-   // document.getElementById("Praise_Count").textContent = arr.length.toString();
+    document.getElementById("Praise_Count").innerText = arr.length.toString();
 
     // Loop through list and add to Praise_Dynamic_List 
     for(var i = 0; i < arr.length; i++)
@@ -48,7 +48,7 @@ function addPraises(arr) {
 
 function addCritisim(arr) {
     var parentNode = document.getElementById("Cristism_Dynamic_List");
-    //document.getElementById("Criticism_Count").textContent = arr.length.toString();
+    document.getElementById("Criticism_Count").textContent = arr.length.toString();
 
     // Loop through list and add to Praise_Dynamic_List 
     for(var i = 0; i < arr.length; i++)

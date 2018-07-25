@@ -137,3 +137,27 @@
   letter-spacing: normal;
   color: #6b717e;
 }
+
+.praise-circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 30px;
+  float: right;
+  text-align: center;
+  background: #bfffbc;
+  border: 2px solid #5b8959;
+}
+
+.criticism-circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 30px;
+  float: right;
+  text-align: center;
+  background: rgba(246, 171, 171, 0.93);;
+  border: 2px solid #fa5d5b;
+}
