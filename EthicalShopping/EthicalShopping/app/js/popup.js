@@ -20,21 +20,18 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-var fakePraiseList = ["test1", "test2", "test3"];
-var fakeCritisimList = ["test3", "test4", "test5"];
-
 getData("companyToData", function(val){
   nikeData = val["companyToData"]["Nike"];
-  fakePraiseList = nikeData["praise"];
-  fakeCritisimList = nikeData["criticism"];
-  addPraises(fakePraiseList); 
-  addCritisim(fakeCritisimList)
+  praiseList = nikeData["praise"];
+  critisimList = nikeData["criticism"];
+  addPraises(praiseList); 
+  addCritisim(critisimList)
   addCorrectPhrase("This is hardcoded atm");
 })
 
 function addPraises(arr) {
     var parentNode = document.getElementById("Praise_Dynamic_List");
-    document.getElementById("Praise_Count").textContent = arr.length.toString();
+   // document.getElementById("Praise_Count").textContent = arr.length.toString();
 
     // Loop through list and add to Praise_Dynamic_List 
     for(var i = 0; i < arr.length; i++)
@@ -43,14 +40,15 @@ function addPraises(arr) {
       var str = arr[i]["title"].toString(); 
       var node = document.createElement("li");
       var textNode = document.createTextNode(str);
+      console.log(node)
       node.appendChild(textNode);
       parentNode.appendChild(node);
     }
 }
 
 function addCritisim(arr) {
-    var parentNode = document.getElementById("Cristisim_Dynamic_List");
-    document.getElementById("Criticism_Count").textContent = arr.length.toString();
+    var parentNode = document.getElementById("Cristism_Dynamic_List");
+    //document.getElementById("Criticism_Count").textContent = arr.length.toString();
 
     // Loop through list and add to Praise_Dynamic_List 
     for(var i = 0; i < arr.length; i++)
