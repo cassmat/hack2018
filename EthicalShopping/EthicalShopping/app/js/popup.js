@@ -26,6 +26,8 @@ addPraises(fakePraiseList);
 addCritisim(fakeCritisimList)
 addCorrectPhrase("This is hardcoded atm");
 
+document.getElementById("Praise_Numbers").textContent = "hi";
+
 function addPraises(arr) {
     var parentNode = document.getElementById("Praise_Dynamic_List");
 
