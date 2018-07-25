@@ -20,26 +20,41 @@ for (i = 0; i < acc.length; i++) {
 }
 
 var fakePraiseList = ["test1", "test2", "test3"];
+var fakeCritisimList = ["test3", "test4", "test5"];
 addPraises(fakePraiseList); 
+addCritisim(fakeCritisimList)
 
-function addPraises(array) {
-    console.log("in addPraise")
-    var ul = document.getElementById("Praise_Dynamic_Listt");
-    
+function addPraises(param) {
+    var parentNode = document.getElementById("Praise_Dynamic_List");
+
     // Loop through list and add to Praise_Dynamic_List 
-    var i = 0;
-    var len = array.length;
-
-    for(; i < len; i++)
+    for(var i = 0; i < param.length; i++)
     {
       // Append 
-      var li = document.createElement("li");
-      li.setAttribute('id', array[i]);
-      li.appendChild(document.createTextNode(array[i]));
-      ul.appendChild(li);
-
+      var str = param[i].toString(); 
+      var node = document.createElement("li");
+      var textNode = document.createTextNode(str);
+      node.appendChild(textNode);
+      parentNode.appendChild(node);
     }
 }
+
+function addCritisim(param) {
+    var parentNode = document.getElementById("Cristisim_Dynamic_List");
+
+    // Loop through list and add to Praise_Dynamic_List 
+    for(var i = 0; i < param.length; i++)
+    {
+      // Append 
+      var str = param[i].toString(); 
+      var node = document.createElement("li");
+      var textNode = document.createTextNode(str);
+      node.appendChild(textNode);
+      parentNode.appendChild(node);
+    }
+}
+
+Cristisim_Dynamic_List
 
 // function removePrase(){
 //     var ul = document.getElementById("dynamic-list");
