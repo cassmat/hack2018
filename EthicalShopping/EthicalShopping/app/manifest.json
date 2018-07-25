@@ -4,11 +4,10 @@
   "description": "Conscious consumption through awarness",
   "permissions": ["activeTab", "declarativeContent", "storage", "tabs", "unlimitedStorage"],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["js/background.js"],
     "persistent": false
   },
   "browser_action": {
-    //"default_popup": "popup.html",
     "default_icon": {
       "16": "images/logo_16.png",
       "32": "images/logo_32.png",
@@ -23,7 +22,7 @@
     "128": "images/logo_128.png"
   },
   "web_accessible_resources": [
-    "company_data.json"
+    "data/company_data.json"
   ],
   "manifest_version": 2
 }
