@@ -4,6 +4,33 @@
 
 'use strict';
 
+var domains = {
+    "companyList": [
+        'google.com',
+        "www.kookai.com.au",
+        'global.cue.cc',
+        'https://mightygoodundies.com.au/',
+        'https://www.marc-o-polo.com',
+        'www.levi.com',
+        'www.hm.com',
+        'www.calvinklein.us',
+        'www.donnakaran.com',
+        'shop.diesel.com']
+};
+var companyURLMap = {
+    'google.com': 'Google',
+    "www.kookai.com.au": 'Kookai',
+    'global.cue.cc': 'Cue',
+    'https://mightygoodundies.com.au/': 'Mighty Good Undies',
+    'https://www.marc-o-polo.com': 'Marco Polo',
+    'www.levi.com': "Levi's",
+    'www.hm.com': 'H&M',
+    'www.calvinklein.us': 'Clavin Klein',
+    'www.donnakaran.com': 'DKNY',
+    'www.donnakaran.com': 'Gap',
+    'shop.diesel.com': 'Diesel'
+};
+
 chrome.runtime.onInstalled.addListener(function () {
   console.log("Ethicly Extension started")
   storeCompanyData();
@@ -53,26 +80,61 @@ chrome.browserAction.onClicked.addListener(function () {
 });
 
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
-    // TODO : update every time focus changes, just just on refresh
-    var domains = {"companyList":[{'google.com' : "Google"}, 'yahoo.com', 'https://www.google.com/maps', 'https://www.katespade.com/']};
     var foundDomain = false;
+    var domainName;
+    var companyNames;
+
     getCompanyList(function (companyNames) {
-        var companyNames = domains["companyList"];
-        // iterates over each domain to find our current tab URL
+        companyNames = domains["companyList"];
         companyNames.forEach(function (company) {
             if (tab.url.includes(company)) {
                 foundDomain = true;
+                domainName = company;
             }
-            console.log(company);
         });
 
         if (foundDomain) {
-            chrome.browserAction.setBadgeText({ text: "A" });
-            chrome.browserAction.setBadgeBackgroundColor({ color: "green" });
+            domainFound(domainName);
         }
         else {
             chrome.browserAction.setBadgeText({ text: "" });
-            //chrome.browserAction.setBadgeBackgroundColor({ color: "red" });
         }
     })
 });
+
+function domainFound(domainName) {
+    var companyName = companyURLMap[domainName];
+    var rating;
+    var letterGrade;
+    var gradeColor;
+
+    getData(domainName, function (data) {
+        
+    });
+    switch (rating) {
+        case 'Praises, no criticism':
+            letterGrade = 'A';
+            gradeColor = '#5B8959';
+            break;
+        case 'Some praise, no criticism':
+            letterGrade = 'B';
+            gradeColor = '#71C17A';
+            break;
+        case 'Praises, some criticism':
+            letterGrade = 'C';
+            gradeColor = '#F0BB58';
+            break;
+        case 'Criticism, some praise':
+            letterGrade = 'D';
+            gradeColor = '#F07D21';
+            break;
+        case 'Criticisms':
+            letterGrade = 'F';
+            gradeColor = '#FA5D5B';
+        default:
+            letterGrade = '?';
+            gradeColor = '#B1B3B6';
+    }
+    chrome.browserAction.setBadgeText({ text: letterGrade });
+    chrome.browserAction.setBadgeBackgroundColor({ color: gradeColor });
+}
