@@ -66,12 +66,18 @@ chrome.browserAction.onClicked.addListener(function () {
 });
 
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
+    // TODO : update every time focus changes, just just on refresh
     var domains = ['google.com', 'yahoo.com', 'https://www.google.com/maps', 'https://www.katespade.com/'];
-    //for (domain in domains) {
-    if (changeInfo.url.includes("google.com")) {
-        chrome.browserAction.setBadgeText({ text: "Y" });
-    } else {
-        chrome.browserAction.setBadgeText({ text: "" });
+    var foundDomain = false;
+    // iterates over each domain to find our current tab URL
+    domains.forEach(function (domain) { if (tab.url.includes(domain)) { foundDomain = true; } });
+
+    if (foundDomain) {
+        chrome.browserAction.setBadgeText({ text: "A" });
+        chrome.browserAction.setBadgeBackgroundColor({ color: "green" });
     }
-    //}
+    else {
+        chrome.browserAction.setBadgeText({ text: "F" });
+        chrome.browserAction.setBadgeBackgroundColor({ color: "red" });
+    }
 });
