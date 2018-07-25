@@ -67,17 +67,25 @@ chrome.browserAction.onClicked.addListener(function () {
 
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
     // TODO : update every time focus changes, just just on refresh
-    var domains = ['google.com', 'yahoo.com', 'https://www.google.com/maps', 'https://www.katespade.com/'];
+    var domains = {"companyList":[{'google.com' : "Google"}, 'yahoo.com', 'https://www.google.com/maps', 'https://www.katespade.com/']};
     var foundDomain = false;
-    // iterates over each domain to find our current tab URL
-    domains.forEach(function (domain) { if (tab.url.includes(domain)) { foundDomain = true; } });
+    getCompanyList(function (companyNames) {
+        var companyNames = domains["companyList"];
+        // iterates over each domain to find our current tab URL
+        companyNames.forEach(function (company) {
+            if (tab.url.includes(company)) {
+                foundDomain = true;
+            }
+            console.log(company);
+        });
 
-    if (foundDomain) {
-        chrome.browserAction.setBadgeText({ text: "A" });
-        chrome.browserAction.setBadgeBackgroundColor({ color: "green" });
-    }
-    else {
-        chrome.browserAction.setBadgeText({ text: "F" });
-        chrome.browserAction.setBadgeBackgroundColor({ color: "red" });
-    }
+        if (foundDomain) {
+            chrome.browserAction.setBadgeText({ text: "A" });
+            chrome.browserAction.setBadgeBackgroundColor({ color: "green" });
+        }
+        else {
+            chrome.browserAction.setBadgeText({ text: "" });
+            //chrome.browserAction.setBadgeBackgroundColor({ color: "red" });
+        }
+    })
 });
