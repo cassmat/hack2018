@@ -22,20 +22,25 @@ for (i = 0; i < acc.length; i++) {
 
 var fakePraiseList = ["test1", "test2", "test3"];
 var fakeCritisimList = ["test3", "test4", "test5"];
-addPraises(fakePraiseList); 
-addCritisim(fakeCritisimList)
-addCorrectPhrase("This is hardcoded atm");
 
-document.getElementById("Praise_Numbers").textContent = "hi";
+getData("companyToData", function(val){
+  nikeData = val["companyToData"]["Nike"];
+  fakePraiseList = nikeData["praise"];
+  fakeCritisimList = nikeData["criticism"];
+  addPraises(fakePraiseList); 
+  addCritisim(fakeCritisimList)
+  addCorrectPhrase("This is hardcoded atm");
+})
 
 function addPraises(arr) {
     var parentNode = document.getElementById("Praise_Dynamic_List");
+    document.getElementById("Praise_Count").textContent = arr.length.toString();
 
     // Loop through list and add to Praise_Dynamic_List 
     for(var i = 0; i < arr.length; i++)
     {
       // Append 
-      var str = arr[i].toString(); 
+      var str = arr[i]["title"].toString(); 
       var node = document.createElement("li");
       var textNode = document.createTextNode(str);
       node.appendChild(textNode);
@@ -45,12 +50,13 @@ function addPraises(arr) {
 
 function addCritisim(arr) {
     var parentNode = document.getElementById("Cristisim_Dynamic_List");
+    document.getElementById("Criticism_Count").textContent = arr.length.toString();
 
     // Loop through list and add to Praise_Dynamic_List 
     for(var i = 0; i < arr.length; i++)
     {
       // Append 
-      var str = arr[i].toString(); 
+      var str = arr[i]["title"].toString(); 
       var node = document.createElement("li");
       var textNode = document.createTextNode(str);
       node.appendChild(textNode);
@@ -62,4 +68,10 @@ function addCritisim(arr) {
 function addCorrectPhrase(str) {
   var parentNode = document.getElementById("Phrase_Section"); 
   parentNode.textContent = str
+}
+
+function getData(key, callback){
+  chrome.storage.local.get([key], function(obj) {
+    callback(obj);
+  })
 }
