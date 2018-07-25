@@ -56,6 +56,7 @@ function addCritisim(arr) {
     }
 }
 
+//todo fix this to actually be hooked up to the new html 
 function addCorrectPhrase(str) {
   var parentNode = document.getElementById("Phrase_Section"); 
   parentNode.textContent = str

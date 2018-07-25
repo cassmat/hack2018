@@ -1,3 +1,7 @@
+body {
+    font-family:
+}
+
 .accordion {
     background-color: #eee;
     color: #444;
@@ -16,10 +20,47 @@
 }
 
 .panel {
-    padding: 0 18px;
+    padding: 12 18px;
     background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
 
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    size: 50%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.roundbox {
+    border-radius: 0.5rem;
+}
+
+.fit-buttons {
+    padding: 0.2rem;
+}
+
+.brand-fix {
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+    font: "Gill Sans Regular", sans-serif;
+}
+
+.shadow-body {
+    box-shadow: inset 0 -1rem 0.5rem -1rem #6B717E;
+}
+
+.logo-back {
+    margin-bottom: 1rem;
+    background: #ecf0f1;
+}
+
+.phrase-fix {
+    text-align: center;
+    font: "Gill Sans Regular", sans-serif;
+}
