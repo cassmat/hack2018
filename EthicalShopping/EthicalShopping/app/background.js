@@ -18,9 +18,6 @@ chrome.runtime.onInstalled.addListener(function () {
       ],
       actions: []
     }]);
-    getCompanyData("Bunnings", function(val){
-      console.log(val)
-    })
   });
 });
 
@@ -29,36 +26,26 @@ function storeCompanyData(){
   fetch(chrome.extension.getURL('/company_data.json'))
         .then((resp) => resp.json())
         .then(function (jsonData) {
-          var company_list = []
+          var company_obj = {}
+          var url_obj = {}
           var data = jsonData["data"];
           for (var i = 0; i < data.length; i++)
           {
-            var obj = data[i]
-            company_list.push(obj["company"])
-            var key = "COMPANY_" + obj["company"];
+            var obj = data[i];
+            url_obj[obj["url"]] = obj["company"];
             var value = {"rating": obj["rating"], "category": obj["category"],
-            "praise" : obj["praise"], "criticism": obj["criticism"], "information" : obj["information"]};
-            var objToStore = {};
-            objToStore[key] = value;
-            chrome.storage.local.set(objToStore);
+            "praise" : obj["praise"], "criticism": obj["critcism"], "information" : obj["information"]};
+            company_obj[obj["company"]] = value;
           }
-          chrome.storage.local.set({"companyList" : company_list});
+          chrome.storage.local.set({"url_to_company" : url_obj});
+          chrome.storage.local.set({"company_to_data" : company_obj});
         })
 }
 
-function getCompanyData(key, callback) {
-  if (key != null) {
-    key = ["COMPANY_" + key];
-    chrome.storage.local.get(key, function(obj) {
+function getData(key, callback) {
+    chrome.storage.local.get([key], function(obj) {
       callback(obj);
     })
-  }
-}
-
-function getCompanyList(callback) {
-  chrome.storage.local.get(["companyList"], function(obj) {
-    callback(obj);
-  })
 }
 
 chrome.browserAction.onClicked.addListener(function () {
