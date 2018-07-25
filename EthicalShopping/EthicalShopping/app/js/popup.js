@@ -26,6 +26,8 @@ addPraises(fakePraiseList);
 addCritisim(fakeCritisimList)
 addCorrectPhrase("This is hardcoded atm");
 
+document.getElementById("Praise_Numbers").textContent = "hi";
+
 function addPraises(arr) {
     var parentNode = document.getElementById("Praise_Dynamic_List");
 
@@ -56,6 +58,7 @@ function addCritisim(arr) {
     }
 }
 
+//todo fix this to actually be hooked up to the new html 
 function addCorrectPhrase(str) {
   var parentNode = document.getElementById("Phrase_Section"); 
   parentNode.textContent = str
