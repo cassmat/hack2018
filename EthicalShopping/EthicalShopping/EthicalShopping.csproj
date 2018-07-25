@@ -40,10 +40,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app\background.js" />
-    <Content Include="app\images\get_started128.png" />
-    <Content Include="app\images\get_started16.png" />
-    <Content Include="app\images\get_started32.png" />
-    <Content Include="app\images\get_started48.png" />
     <Content Include="app\img\icon.png" />
     <Content Include="app\options.html" />
     <Content Include="app\options.js" />
@@ -61,7 +57,9 @@
   <ItemGroup>
     <Content Include="app\manifest.json" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="app\images\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

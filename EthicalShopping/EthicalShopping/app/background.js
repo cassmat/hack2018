@@ -28,11 +28,11 @@ chrome.browserAction.onClicked.addListener(function () {
 
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
     var domains = ['google.com', 'yahoo.com', 'https://www.google.com/maps', 'https://www.katespade.com/'];
-    for (domain in domains) {
+    //for (domain in domains) {
         if (changeInfo.url.includes("google.com")) {
             chrome.browserAction.setBadgeText({ text: "Y" });
         } else {
             chrome.browserAction.setBadgeText({ text: "" });
         }
-    }
+    //}
 }); 
