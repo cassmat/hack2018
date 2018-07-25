@@ -4,6 +4,34 @@
 
 'use strict';
 
+var domains = {
+    "companyList": [
+        'google.com',
+        "www.kookai.com.au",
+        'global.cue.cc',
+        'https://mightygoodundies.com.au/',
+        'https://www.marc-o-polo.com',
+        'www.levi.com',
+        'www.hm.com',
+        'www.calvinklein.us',
+        'www.donnakaran.com',
+        'shop.diesel.com']
+};
+var companyURLMap = {
+    'google.com': 'Google',
+    "www.kookai.com.au": 'Kookai',
+    'global.cue.cc': 'Cue',
+    'https://mightygoodundies.com.au/': 'Mighty Good Undies',
+    'https://www.marc-o-polo.com': 'Marco Polo',
+    'www.levi.com': "Levi's",
+    'www.hm.com': 'H&M',
+    'www.calvinklein.us': 'Clavin Klein',
+    'www.donnakaran.com': 'DKNY',
+    'www.donnakaran.com': 'Gap',
+    'shop.diesel.com': 'Diesel'
+};
+
+
 chrome.runtime.onInstalled.addListener(function () {
   console.log("Ethicly Extension started")
   storeCompanyData();
@@ -56,12 +84,67 @@ chrome.browserAction.onClicked.addListener(function () {
 });
 
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
-    var domains = ['google.com', 'yahoo.com', 'https://www.google.com/maps', 'https://www.katespade.com/'];
-    //for (domain in domains) {
-    if (changeInfo.url.includes("google.com")) {
-        chrome.browserAction.setBadgeText({ text: "Y" });
-    } else {
-        chrome.browserAction.setBadgeText({ text: "" });
-    }
-    //}
+    var foundDomain = false;
+    var domainName;
+    var companyNames;
+
+    getData("urlToCompany", function (companyNames) {
+        companyNames = domains["companyList"];
+        companyNames.forEach(function (company) {
+            if (tab.url.includes(company)) {
+                foundDomain = true;
+                domainName = company;
+            }
+        });
+
+        if (foundDomain) {
+            domainFound(domainName);
+        }
+        else {
+            chrome.browserAction.setBadgeText({ text: "" });
+        }
+    })
 });
+
+function domainFound(domainName) {
+    var companyName = companyURLMap[domainName];
+    var rating;
+    var letterGrade;
+    var gradeColor;
+    var company;
+
+    getData("companyToData", function (companyData) {
+        companyData = companyData["companyToData"];
+        company = companyData[companyName];
+        rating = company["rating"];
+        console.log(rating);
+        switch (rating) {
+            case 'Praises, No Criticisms':
+                letterGrade = 'A';
+                gradeColor = '#5B8959';
+                break;
+            case 'Lesser Praises, No Criticisms':
+                letterGrade = 'B';
+                gradeColor = '#71C17A';
+                break;
+            case 'Lesser Criticisims':
+                letterGrade = 'C';
+                gradeColor = '#F0BB58';
+                break;
+            case 'Criticisms':
+                letterGrade = 'D';
+                gradeColor = '#F07D21';
+                break;
+            case 'Boycott':
+                letterGrade = 'F';
+                gradeColor = '#FA5D5B';
+            default:
+                letterGrade = '?';
+                gradeColor = '#B1B3B6';
+        }
+        chrome.browserAction.setBadgeText({ text: letterGrade });
+        chrome.browserAction.setBadgeBackgroundColor({ color: gradeColor });
+        console.log(letterGrade);
+        console.log(gradeColor);
+    });
+}

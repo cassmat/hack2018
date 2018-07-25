@@ -39,12 +39,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="app\background.js" />
     <Content Include="app\img\icon.png" />
+    <Content Include="app\js\background.js" />
+    <Content Include="app\js\options.js" />
+    <Content Include="app\js\popup.js" />
     <Content Include="app\options.html" />
-    <Content Include="app\options.js" />
     <Content Include="app\popup.html" />
-    <Content Include="app\popup.js" />
     <Content Include="Properties\build\lib\Ionic.Zip.DLL" />
     <Content Include="Properties\build\lib\MSBuild.ExtensionPack.dll" />
     <Content Include="screenshots\screenshot.png" />
