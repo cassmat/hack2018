@@ -72,7 +72,7 @@
 }
 
 .font-name {
-    font-family: GillSans;
+    font: GillSans;
     font-size: 24px;
     font-weight: normal;
     font-style: normal;
@@ -83,7 +83,7 @@
 }
 
 .font-description {
-    font-family: GillSans;
+    font: GillSans;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -94,7 +94,7 @@
 }
 
 .font-praises { 
-    font-family: GillSans;
+    font: GillSans;
     font-size: 24px;
     font-weight: normal;
     font-style: normal;
@@ -105,7 +105,7 @@
  }
 
  .font-critism { 
-    font-family: GillSans;
+    font: GillSans;
     font-size: 24px;
     font-weight: normal;
     font-style: normal;
@@ -128,7 +128,7 @@
  }
 
 .font-list {
-  font-family: GillSans;
+  font: GillSans;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -160,4 +160,8 @@
   text-align: center;
   background: rgba(246, 171, 171, 0.93);;
   border: 2px solid #fa5d5b;
+}
+
+.li:hover {
+    font-weight: bold;
 }

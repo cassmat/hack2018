@@ -1,0 +1,1145 @@
+{
+	"data": [{
+		"company": "Google",
+		"rating": "Lesser Criticisims",
+		"category": ["Software", "Search Engines", "Music Streaming", "Social Media", "Smartphones", "Social Media", "Video Streaming", "Music Streaming"],
+		"praise": [{
+			"title": "A rating at ClickClean.org",
+			"description": "Greenpeace's 2017 report 'Clicking Clean' looks at the energy footprints of large data centre operators and popular websites and applications, and calls on these companies to power their data centres on renewable energy. Companies are graded (A,B,C,D,F) on their commitment to and procurement of renewable energy, as well as energy efficiency, transparency and advocacy. This company's final grade was A.\n\n",
+			"url": "http://www.clickclean.org/international/en/",
+			"category": "Environment"
+		}, {
+			"title": "58/100 on Cool IT Leaderboard",
+			"description": "Greenpeace's Cool IT Leaderboard Version 6 evaluates top IT companies on their efforts to provide economy-wide climate solutions, reduce emissions from their own operations, and lobby for science-based climate and energy policies. This company received a score of 58/100, putting them at the top of the leaderboard.\n\n",
+			"url": "http://www.greenpeace.org/international/en/Cool-IT-Leaderboard/6th-Edition/",
+			"category": "Environment"
+		}, {
+			"title": "Green Power Partner",
+			"description": "This company is listed on the EPA Green Power Partnership website (USA), as using renewable energy for 36% of its organisation-wide electricity use in the USA.\n\n",
+			"url": "https://www.epa.gov/greenpower/green-power-partner-list",
+			"category": "Environment"
+		}, {
+			"title": "100% on Corporate Equality Index",
+			"description": "This company is listed as having best practice on a report card on lesbian, gay, bisexual and transgender equality in corporate America.\n\n",
+			"url": "https://www.hrc.org/cei",
+			"category": "Social"
+		}],
+		"critcism": [{
+			"title": "Privacy breaches",
+			"description": "Google has been fined in court over privacy breaches (often in relation to its Street View cars) in several countries including the USA, France, Germany, Italy and Spain. Google faces more lawsuits for violating privacy laws.\n\n",
+			"url": "http://www.google.com.au/search?q=google+privacy+fined",
+			"category": "Social"
+		}, {
+			"title": "D+ in Guide to Greener Electronics",
+			"description": "This company received a grade of D+ in the Greenpeace Guide to Greener Electronics (Oct 2017), which assesses companies from the electronics industry across three impact areas: energy use, resource consumption, and chemical elimination. Of the 17 companies ranked, this company came tenth.\n\n",
+			"url": "http://www.greenpeace.org/usa/reports/greener-electronics-2017/",
+			"category": "Environment"
+		}, {
+			"title": "Tax avoidance",
+			"description": "This company scores Ethical Consumer's worst rating for the likely use of tax avoidance strategies, and has at least two high risk subsidiaries in tax havens.\n\n",
+			"url": "https://www.ethicalconsumer.org/ethicalcampaigns/taxjusticecampaign/taxavoidancerankings.aspx",
+			"category": "Business Ethics"
+		}, {
+			"title": "Wage fixing",
+			"description": "This company was one of four companies that agreed to pay a total of US$324m to settle a class action lawsuit accusing them of conspiring to hold down salaries in Silicon Valley by agreeing not to recruit or poach employees from each other. However in Aug 2014 a US court rejected this settlement on the basis that more than 60,000 top-level workers were affected, saying that the amount should be larger. The final amount is yet to be decided.\n\n",
+			"url": "http://www.theinquirer.net/inquirer/news/2359708/us-court-rejects-apple-google-intel-and-adobe-wage-fixing-settlement",
+			"category": "Business Ethics"
+		}],
+		"information": [{
+			"title": "Fined over autocomplete search",
+			"description": "This company was fined $200,000 by an Australian court in October 2012 over its autocomplete search which linked the name of a Melbourne man to gangland crime. It was also fined $65,000 by a French court in January 2012 over its autocomplete search which linked the word 'crook' to an insurance company.\n\n",
+			"url": "http://www.smh.com.au/technology/technology-news/australian-surgeon-sues-google-over-bankrupt-autocomplete-20130122-2d480.html",
+			"category": "Social"
+		}, {
+			"title": "Repairability of devices",
+			"description": "In 2017 engineers from ifixit.com disassembled and analysed a range of smartphones, tablets and laptops, awarding each a repairability score between one and ten. Ten is the easiest to repair. A device with a perfect score will be relatively inexpensive to repair because it is easy to disassemble and has a service manual available. Points are docked based on the difficulty of opening the device, the types of fasteners found inside, and the complexity involved in replacing major components. Points are awarded for upgradability, use of non-proprietary tools for servicing, and component modularity. Products by this company scored between 4 and 7 points.\n\n",
+			"url": "https://www.rethink-it.org/en/",
+			"category": "Social"
+		}, {
+			"title": "Billing practices",
+			"description": "This company has agreed to refund US$19m to parents billed for unauthorised purchases by their children while using mobile apps. It also promised the US Federal Trade Commission to change its billing practices for in-app purchases 'to ensure that it obtains express, informed consent from consumers before charging them for items sold in mobile apps'.\n\n",
+			"url": "http://www.smh.com.au/digital-life/mobiles/google-to-refund-at-least-19-million-for-kids-inapp-purchases-20140905-10cvnl.html",
+			"category": "Business Ethics"
+		}, {
+			"title": "Climate action commitments",
+			"description": "As listed on the We Mean Business website, this company has committed to the following climate action initiatives: commit to 100% renewable power.\n\n",
+			"url": "https://www.wemeanbusinesscoalition.org/companies/",
+			"category": "Environment"
+		}, {
+			"title": "Responsible Minerals Initiative member",
+			"description": "This company is a member of the Responsible Minerals Initiative (formerly the Conflict-Free Sourcing Initiative), which helps companies address conflict minerals issues in their supply chains. The RMI provides information on conflict-free smelters and refiners, common tools to gather sourcing information, and forums for exchanging best practices on addressing conflict minerals. Membership is open to companies that use or transact in tantalum, tin, tungsten or gold (3TG). Founded in 2008 by members of the Electronic Industry Citizenship Coalition and the Global e-Sustainability Initiative.\n\n",
+			"url": "https://www.responsiblemineralsinitiative.org/about/members-and-collaborations/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Robotics acquisitions",
+			"description": "Google has bought several robotics firms in recent years including Boston Dynamics which, prior to purchase from Google, was heavily funded by the US military. Many expressed concern that Google was moving towards becoming a major US military contractor, however Google denies this and has greatly reduced its dependence on government funding.\n\n",
+			"url": "http://www.pcworld.com/article/2456240/under-google-robot-maker-reduces-dependence-on-military-funding.html",
+			"category": "Social"
+		}, {
+			"title": "C- grade at Behind the Barcode",
+			"description": "C- grade in the Baptist World Aid Australia's Behind the Barcode 'Ethical Electronics Guide 2016', which grades companies on their efforts to mitigate the risks of forced labour, child labour and worker exploitation throughout their supply chains. Assessment criteria fall into four main categories: policies, traceability & transparency, monitoring & training and worker rights.\n\n",
+			"url": "https://baptistworldaid.org.au/faith-in-action/behind-the-barcode/",
+			"category": "Social"
+		}, {
+			"title": "Criticism of Google - Wikipedia",
+			"description": "Criticism of Google includes alleged misuse and manipulation of search results, its use of others' intellectual property, concerns that its compilation of data may violate people's privacy, censorship of search results and content, and the energy consumption of its servers as well as concerns over traditional business issues such as antitrust, monopoly, and restraint of trade.\n",
+			"url": "https://en.wikipedia.org/wiki/Criticism_of_Google",
+			"category": "Information"
+		}, {
+			"title": "OpenSecrets.org profile",
+			"description": "OpenSecrets.org tracks the influence of money on U.S. politics, and how that money affects policy and citizens' lives. Follow link to see this company's record of political donations, lobbying, outside spending and more.\n",
+			"url": "https://www.opensecrets.org/orgs/summary.php?id=D000022008&cycle=A",
+			"category": "Information"
+		}],
+		"url": "www.google.com"
+	}, {
+		"company": "Kookai",
+		"url": "www.kookai.com.au",
+		"rating": "Lesser Praises, No Criticisms",
+		"category": ["Womens Fashion"],
+		"praise": [{
+			"title": "B- grade in 2018 Ethical Fashion Report",
+			"description": "B- grade in the Baptist World Aid Australia's 'Ethical Fashion Report 2018', which grades companies, from A to F, on the strength of their systems to mitigate against the risks of forced labour, child labour, and exploitation in their supply chains. Assessment criteria fall into four main categories: policies, knowing suppliers, auditing and supplier relationships, and worker empowerment.\n\n",
+			"url": "https://baptistworldaid.org.au/resources/2018-ethical-fashion-guide/",
+			"category": "Social"
+		}],
+		"critcism": [],
+		"information": [{
+			"title": "Katalyst Foundation",
+			"description": "In 2012 Kookai started their own charity, Katalyst Foundation, to centralize the charitable work they had engaged in over the previous two decades. Katalyst focuses on charitable endeavours, primarily in Fiji, that bring about lasting change to break the cycle of poverty, rather than just providing temporary relief.\n\n",
+			"url": "http://www.katalystfoundation.org/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Ethics statement",
+			"description": "This company has an ethical approach to fashion in its manufacturing processes, sourcing materials that are sustainable, providing a certified organic range and through their Katalyst Foundation making lasting changes to alleviate poverty by providing infrastructure and sustainable businesses in Fiji.\n\n",
+			"url": "http://www.kookai.com.au/pages/ethics-statement",
+			"category": "Business Ethics"
+		}]
+	}, {
+		"company": "Cue Clothing",
+		"url": "www.global.cue.cc",
+		"rating": "Praises, No Criticisims",
+		"category": ["Womens Fashion", "Womens Fashion"],
+		"praise": [{
+			"title": "ethical clothing australia accreditation",
+			"description": "Accredited and licensed to display the 'Ethical Clothing Australia' Trade Mark on their Australian-made garments, which ensures Australian workers receive fair wages and decent conditions.\n\n",
+			"url": "https://ethicalclothingaustralia.org.au/wp-content/uploads/2015/12/ECA-Brand-List.pdf",
+			"category": "Social"
+		}, {
+			"title": "Uzbek cotton commitment",
+			"description": "This company has signed the Cotton Pledge with the Responsible Sourcing Network, signifying a public commitment to not use Uzbekistani cotton. (Uzbekistan is the world's fifth largest exporter of cotton and has for decades been criticised for using the forced labour of its schoolchildren to harvest that cotton by hand under appalling conditions. This practice is organised and controlled by the central government).\n\n",
+			"url": "https://www.sourcingnetwork.org/the-cotton-pledge/",
+			"category": "Social"
+		}],
+		"critcism": [],
+		"information": [{
+			"title": "Angora ban",
+			"description": "This company has taken angora items off the shelves and promised not to use angora again, following a PETA campaign launched in Dec 2013 which revealed the cruelty inflicted on angora rabbits in Chinese factory farms, where 90% of the world's angora is produced.\n\n",
+			"url": "https://www.peta.org.au/living/fur-angora-free-designers-list/",
+			"category": "Animals"
+		}, {
+			"title": "C grade in 2018 Ethical Fashion Report",
+			"description": "C grade in the Baptist World Aid Australia's 'Ethical Fashion Report 2018', which grades companies, from A to F, on the strength of their systems to mitigate against the risks of forced labour, child labour, and exploitation in their supply chains. Assessment criteria fall into four main categories: policies, knowing suppliers, auditing and supplier relationships, and worker empowerment.\n\n",
+			"url": "https://baptistworldaid.org.au/resources/2018-ethical-fashion-guide/",
+			"category": "Social"
+		}]
+	}, {
+		"company": "Marco Polo Foods",
+		"url": "www.marc-o-polo.com",
+		"rating": "Lesser Praises, No Criticisms",
+		"category": ["Pickles, Chutney & Relish", "Pickles, Chutney & Relish"],
+		"praise": [{
+			"title": "Australian Packaging Covenant signatory",
+			"description": "Signatory to the Australian Packaging Covenant, a voluntary agreement to encourage waste minimisation.\n\n",
+			"url": "https://www.packagingcovenant.org.au/searchdirectory",
+			"category": "Environment"
+		}],
+		"critcism": [],
+		"information": []
+	}, {
+		"company": "Levi Strauss & Co",
+		"url": "www.levi.com",
+		"rating": "Lesser Criticisims",
+		"category": ["Denim", "Youth Fashion", "Menswear (casual)", "Denim", "Womens Fashion"],
+		"praise": [{
+			"title": "Supply chain practices in China",
+			"description": "This company received a score of 76.5/100 (retrieved 14-Feb-2018) in the Corporate Information Transparency Index (CITI), a system for evaluating supply chain practices in China, particularly in regards to environmental management and water pollution. Scores are calculated using government compliance data, online monitoring data, and third-party environmental audits, as well as trends in the environmental performance of factories in the company's supply chains.\n\n",
+			"url": "http://wwwen.ipe.org.cn/GreenSupplyChain/CITI.aspx",
+			"category": "Environment"
+		}, {
+			"title": "Child labour scorecard",
+			"description": "This website by German NGO Earth Link rates companies on their corporate policies against child labour, production monitoring and accusations of child labour. This company received at least one green mark, and no red marks, indicating good performance in one or more of these areas.\n\n",
+			"url": "https://www.aktiv-gegen-kinderarbeit.de/firmen/firmenliste/",
+			"category": "Social"
+		}, {
+			"title": "100% on Corporate Equality Index",
+			"description": "This company is listed as having best practice on a report card on lesbian, gay, bisexual and transgender equality in corporate America.\n\n",
+			"url": "https://www.hrc.org/cei",
+			"category": "Social"
+		}, {
+			"title": "Cotton sourcing (As You Sow)",
+			"description": "Responsible Sourcing Network's 2014 report Cotton Sourcing Snapshot: A Survey of Corporate Practices to End Forced Labor includes survey results and ratings of 49 companies reflecting actions they are taking to stop cotton from Uzbekistan picked with forced labor from entering their supply chains. The survey offered a maximum of 100 points across 11 indicators in the categories of Policy, Public Disclosure, Engagement, and Implementation & Auditing. Only five companies scored over 50 points, 19 companies scored under 25 points, and two companies scored zero. Although this company scored under 50 points, it was given a special mention in the report for its efforts to address the issue of Uzbek cotton.\n\n",
+			"url": "https://www.sourcingnetwork.org/cotton-sourcing-snapshot/",
+			"category": "Social"
+		}, {
+			"title": "Uzbek cotton commitment",
+			"description": "This company has signed the Cotton Pledge with the Responsible Sourcing Network, signifying a public commitment to not use Uzbekistani cotton. (Uzbekistan is the world's fifth largest exporter of cotton and has for decades been criticised for using the forced labour of its schoolchildren to harvest that cotton by hand under appalling conditions. This practice is organised and controlled by the central government).\n\n",
+			"url": "https://www.sourcingnetwork.org/the-cotton-pledge/",
+			"category": "Social"
+		}, {
+			"title": "B- grade in 2018 Ethical Fashion Report",
+			"description": "B- grade in the Baptist World Aid Australia's 'Ethical Fashion Report 2018', which grades companies, from A to F, on the strength of their systems to mitigate against the risks of forced labour, child labour, and exploitation in their supply chains. Assessment criteria fall into four main categories: policies, knowing suppliers, auditing and supplier relationships, and worker empowerment.\n\n",
+			"url": "https://baptistworldaid.org.au/resources/2018-ethical-fashion-guide/",
+			"category": "Social"
+		}, {
+			"title": "47/100 in Fashion Transparency Index",
+			"description": "The 2018 Fashion Transparency Index looks at how much brands know about their supply chains, what kind of policies they have in place and importantly, how much information they share with the public about their practices and products. This company scored 47%, signifying that it is making significant efforts in the given areas, and has made some or most of this information publicly available. The average score was 21% and the highest score was 58%.\n\n",
+			"url": "https://issuu.com/fashionrevolution/docs/fr_fashiontransparencyindex2018",
+			"category": "Business Ethics"
+		}, {
+			"title": "Transparency Pledge",
+			"description": "The Apparel and Footwear Supply Chain Transparency Pledge (Transparency Pledge) helps demonstrate apparel and footwear companies' commitment towards greater transparency in their manufacturing supply chain. Transparency of a company's manufacturing supply chain better enables a company to collaborate with civil society in identifying, assessing, and avoiding actual or potential adverse human rights impacts. This is a critical step that strengthens a company's human rights due diligence. This company is fully aligned with the Transparency Pledge, thereby committing to regularly publish on its website a list naming all sites that manufacture its products.\n\n",
+			"url": "https://cleanclothes.org/transparency",
+			"category": "Business Ethics"
+		}],
+		"critcism": [{
+			"title": "Wage theft in Haiti",
+			"description": "This 2013 report by the Workers Rights Consortium reveals that the majority of Haitian garment workers are being denied nearly a third of the wages they are legally due as a result of the factories' theft of their income. Wages for garment industry workers in Haiti are already among the lowest in the world. This company was named as being complicit in this wage theft.\n\n",
+			"url": "http://www.workersrights.org/freports/WRC%20Haiti%20Minimum%20Wage%20Report%2010%2015%2013.pdf",
+			"category": "Social"
+		}, {
+			"title": "Workers rights in Cambodia",
+			"description": "This company is one of the top 5 companies sourcing from Cambodia, where the minimum wage is just 21% of what Asia Floor Wage calculate to be a living wage for the country. Cambodia's garment workers endure excessive overtime, low wages, malnourishment (sometimes leading to mass fainting), violence and intimidation.\n\n",
+			"url": "https://www.cleanclothes.org/livingwage/cambodia",
+			"category": "Social"
+		}, {
+			"title": "Workers rights in India",
+			"description": "Female migrants employed in garment factories in Bangalore, India are recruited with false promises about wages and benefits, and are subjected to conditions of modern slavery. They work under high-pressure for low wages, and live in hostels with poor living conditions while their freedom of movement is severely restricted. This company was identified in the 2018 report \"Labour Without Liberty\" as sourcing garments from these factories.\n\n",
+			"url": "https://cleanclothes.org/news/2018/01/26/new-report-false-promises-and-restriction-of-movement-in-production-for-western-garment-brands.8",
+			"category": "Social"
+		}, {
+			"title": "'D' rating at rankabrand.org",
+			"description": "Rank a Brand searches the websites of brands for the answers to carefully targeted questions. From this they calculate sustainability scores based on the themes of environment, climate, labor issues, and transparency. Brands owned by this company received a 'C'.\n\n",
+			"url": "https://www.rankabrand.org/sustainable-denim-jeans/Levi%27s",
+			"category": "Business Ethics"
+		}],
+		"information": [{
+			"title": "Breaching advertising codes",
+			"description": "This company has been criticised for offensive advertising. In 2012 the UK Advertising Standards Authority upheld complaints about a magazine ad by this company on the grounds that it breached advertising codes. The ad was subsequently discontinued or modified.\n\n",
+			"url": "http://www.asa.org.uk/ASA-action/Adjudications/2012/2/Levi-Strauss-and-Co/SHP_ADJ_176549.aspx",
+			"category": "Social"
+		}, {
+			"title": "Sweatshops in Indonesia, Sri Lanka and the Philippines",
+			"description": "This 2011 report by the International Textile Garment and Leather Workers' Federation (ITGLWF) examined working conditions in 83 factories in Indonesia, Sri Lanka and the Philippines. Investigations found that widespread violations and abuses of workers' rights continue to be the norm, such as underpaying workers, long hours, forced overtime, and repression of the freedom of association. This company's brands were found to be made in one or more of the 83 factories covered in the research. \n\n",
+			"url": "https://www.ituc-csi.org/itglwf-report-an-overview-of",
+			"category": "Social"
+		}, {
+			"title": "Efforts to pay a living wage",
+			"description": "This company declined to respond to a survey by the Clean Clothes Campaign for their 2014 report, 'Tailored Wage', which grades companies on their efforts to ensure workers in its supply chain receive a living wage.\n\n",
+			"url": "https://cleanclothes.org/livingwage/tailoredwages",
+			"category": "Social"
+		}, {
+			"title": "CanopyStyle member",
+			"description": "This company is a member of the CanopyStyle initiative, which came about when research found that millions of trees are used every year to produce dissolving pulp, a key ingredient for fabrics such as rayon/viscose. The campaign seeks to phase out the use of endangered forest fibre in fabric.\n\n",
+			"url": "http://canopyplanet.org/campaigns/canopystyle/",
+			"category": "Environment"
+		}, {
+			"title": "Detox commitment",
+			"description": "Greenpeace launched its \"Detox My Fashion\" campaign in 2011 to expose the direct links between global clothing brands, their suppliers and toxic water pollution around the world. As a result, many companies, including this one, committed to Greenpeace's Detox Program. The 2016 Detox Catwalk report focused on implementation, assessing the steps taken by fashion brands to fulfil their commitments using three criteria: Detox 2020 plan, PFC elimination and Transparency. This company is \"committed to Detox and has made progress implementing its plans, but its actions need to evolve faster to achieve the 2020 Detox goal\".\n\n",
+			"url": "http://www.greenpeace.org/international/en/campaigns/detox/fashion/detox-catwalk/",
+			"category": "Environment"
+		}, {
+			"title": "Zero discharge of hazardous chemicals ",
+			"description": "In 2011, a group of major apparel and footwear brands and retailers, including this company, made a shared commitment to help lead the industry towards zero discharge of hazardous chemicals by 2020. It includes specific commitments and timelines to realize this shared goal.\n\n",
+			"url": "http://www.roadmaptozero.com/contributors/",
+			"category": "Environment"
+		}, {
+			"title": "Green Power Partner",
+			"description": "This company is listed on the EPA Green Power Partnership website (USA), as using renewable energy for 12% of its organisation-wide electricity use in the USA.\n\n",
+			"url": "https://www.epa.gov/greenpower/green-power-partner-list",
+			"category": "Environment"
+		}, {
+			"title": "Climate action commitments",
+			"description": "As listed on the We Mean Business website, this company has committed to the following climate action initiatives: adopt a science-based emissions reduction target.\n\n",
+			"url": "https://www.wemeanbusinesscoalition.org/companies/",
+			"category": "Environment"
+		}, {
+			"title": "Supply Chain Compliance",
+			"description": "This 2010 report by As You Sow, \"Toward a Safe, Just Workplace: Apparel Supply Chain Compliance Programs\", provides a scorecard and report focus on company programs such as: factory auditing, remediation, continuous improvement, collaboration, company management accountability, and transparency. This company received a B+ rating. \n\n",
+			"url": "https://www.asyousow.org/ays_report/toward-a-safe-just-workplace-apparel-supply-chain-compliance-programs/",
+			"category": "Social"
+		}, {
+			"title": "Sandblasting",
+			"description": "This company has publicly banned sandblasting. Sandblasting is a dangerous and deadly process which involves workers firing sand at jeans under high pressure. It has been known to kill workers within months as the inhalation of large amounts of silica dust generated during sandblasting causes silicosis, a potentially lethal pulmonary disease.\n\n",
+			"url": "https://www.cleanclothes.org/news/2012/03/29/killer-jeans-still-being-made",
+			"category": "Social"
+		}, {
+			"title": "Use of  RDS-certified down",
+			"description": "This company has committed to making products with RDS-certified down. The Responsible Down Standard (RDS) is an independent, voluntary global standard which ensures that down and feathers come from ducks and geese that have been treated well, with no live plucking or force feeding. However the RDS has been criticised by PETA, who claim live plucking still occurs at RDS farms. (http://bit.ly/2cYTtoJ)\n\n",
+			"url": "https://responsibledown.org/find-responsible-down-standard/",
+			"category": "Animals"
+		}, {
+			"title": "Fur free",
+			"description": "This company has announced that they don't sell animal fur or are phasing in a fur-free policy.\n\n",
+			"url": "http://www.humanesociety.org/issues/fur_fashion/tips/fur-free_shopping.html",
+			"category": "Animals"
+		}, {
+			"title": "Angora ban",
+			"description": "This company has taken angora items off the shelves and promised not to use angora again, following a PETA campaign launched in Dec 2013 which revealed the cruelty inflicted on angora rabbits in Chinese factory farms, where 90% of the world's angora is produced.\n\n",
+			"url": "https://www.peta.org/living/fashion/more-companies-ban-angora/",
+			"category": "Animals"
+		}, {
+			"title": "Sustainable Apparel Coalition member",
+			"description": "This company is a founding member of the Sustainable Apparel Coalition, a multi-stakeholder initiative launched in March 2011 by a group of global apparel and footwear companies and non-profit organizations (representing nearly one third of the global market share for apparel and footwear). The Coalition's goals are to reduce the apparel industry's environmental and social impact, and to develop a universal index to measure environmental and social performance of apparel products.\n\n",
+			"url": "https://apparelcoalition.org/members/?fwp_type=brand",
+			"category": "Business Ethics"
+		}, {
+			"title": "Contract Factory Disclosure List",
+			"description": "This list was given to the International Textile, Garment and Leather Workers Federation during their campaign to force multinational buyers to disclose their suppliers to the public. Since 2005 a steady stream of brands have been releasing details of their supplier factories.\n\n",
+			"url": "https://archive.is/EyE8",
+			"category": "Business Ethics"
+		}, {
+			"title": "Better Cotton Initiative member",
+			"description": "This company is a member of the Better Cotton Initiative, a voluntary program which encourages the adoption of better management practices in cotton cultivation to achieve measurable reductions in key environmental impacts, while improving social and economic benefits for cotton farmers, small and large, worldwide.\n\n",
+			"url": "http://bettercotton.org/find-members/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Better Work Partner",
+			"description": "This company is a partner of Better Work, an initiative of the UN's International Labour Organization and the International Finance Corporation which brings diverse groups together - governments, global brands, factory owners, and unions and workers - to improve working conditions in the garment industry and make the sector more competitive.\n\n",
+			"url": "https://betterwork.org/our-partners/brands-retailers/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Textile Exchange member",
+			"description": "Textile Exchange (formerly known as Organic Exchange) is a US-based non-profit organization which operates internationally and is committed to the responsible expansion of textile sustainability across the global textile value chain, with a special focus on organic cotton.\n\n",
+			"url": "https://textileexchange.org/members/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Sustainability claims",
+			"description": "This company has extensive sustainability claims on its website in the areas of people, planet, products and production.\n\n",
+			"url": "http://www.levistrauss.com/sustainability/",
+			"category": "Business Ethics"
+		}, {
+			"title": "UN Global Compact participant",
+			"description": "The United Nations Global Compact asks companies to embrace, support and enact, within their sphere of influence, a set of 10 values in the areas of human rights, labour standards, the environment, and anti-corruption. However it's non-binding nature has been widely criticised, and many signatory corporations continue to violate the Compact's values.\n\n",
+			"url": "https://www.unglobalcompact.org/",
+			"category": "Business Ethics"
+		}, {
+			"title": "SB 657 disclosure statement",
+			"description": "The California Transparency in Supply Chains Act of 2010 (SB 657) requires companies operating in California to disclose their efforts to eradicate slavery and human trafficking from their direct supply chains. KnowTheChain.org has examined this company's disclosure statement and concluded that it addresses the majority of SB 657 requirements. Follow the link to see this company's disclosure statement.\n\n",
+			"url": "http://www.levistrauss.com/sites/levistrauss.com/files/librarydocument/2011/12/california-transparency-supply-chains-act-2011a.pdf",
+			"category": "Social"
+		}, {
+			"title": "Project JUST profile",
+			"description": "Project JUST examines the manufacturing practices and ethics of fashion brands. Follow the link to see this company's profile.\n",
+			"url": "https://projectjust.com/brand_levis/",
+			"category": "Information"
+		}, {
+			"title": "Use of nanotechnology",
+			"description": "Stain resistant and wrinkle resistant fabric by Nanotex used in some clothing lines.\n",
+			"url": "https://www.corporatewatch.org/?lid=2151",
+			"category": "Information"
+		}]
+	}, {
+		"company": "H&M",
+		"url": "www.hm.com",
+		"rating": "Lesser Criticisims",
+		"category": ["Denim", "Menswear (casual)", "Womens Fashion", "Childrenswear", "Menswear (casual)", "Womens Fashion", "Cosmetics", "Childrenswear", "Menswear (casual)", "Womens Fashion", "Womens Fashion", "Denim"],
+		"praise": [{
+			"title": "Ethical Trading Initiative member",
+			"description": "The Ethical Trading Initiative (ETI) is an alliance of companies, trade unions and NGOs. They work in partnership to improve the lives of workers across the globe who make or grow consumer goods - everything from tea to T-shirts, from flowers to footballs. This company is a full member.\n\n",
+			"url": "https://www.ethicaltrade.org/about-eti/our-members",
+			"category": "Social"
+		}, {
+			"title": "69/100 in KnowTheChain Benchmark",
+			"description": "In 2016 KnowTheChain benchmarked 60 large global companies in the ICT, Food & Beverage, and Apparel & Footwear sectors on their efforts to address forced labour and human trafficking in their supply chains. This company received a score of 69/100.\n\n",
+			"url": "https://knowthechain.org/benchmarks/",
+			"category": "Social"
+		}, {
+			"title": "Cruelty free company",
+			"description": "This company has either signed PETA's statement of assurance or provided a statement verifying that they do not conduct or commission any animal tests.\n\n",
+			"url": "https://features.peta.org/cruelty-free-company-search/",
+			"category": "Animals"
+		}, {
+			"title": "55/100 in Fashion Transparency Index",
+			"description": "The 2018 Fashion Transparency Index looks at how much brands know about their supply chains, what kind of policies they have in place and importantly, how much information they share with the public about their practices and products. This company scored 55%, signifying that it is publishing detailed supplier lists and the vast majority of policies, procedures and future goals. The average score was 21% and the highest score was 58%.\n\n",
+			"url": "https://issuu.com/fashionrevolution/docs/fr_fashiontransparencyindex2018",
+			"category": "Business Ethics"
+		}, {
+			"title": "76.7% in Newsweek Green Ranking 2017",
+			"description": "This company received a score of 76.7/100 in the Newsweek Green Ranking 2017, which ranks the world's largest publicly traded companies on eight indicators covering energy, greenhouse gases, water, waste, fines and penalties, linking executive pay to sustainability targets, board-level committee oversight of environmental issues and third-party audits. Ranking methodology by Corporate Knights and HIP Investor.\n\n",
+			"url": "http://www.newsweek.com/top-500-global-companies-green-rankings-2017-18",
+			"category": "Business Ethics"
+		}, {
+			"title": "Supply chain practices in China",
+			"description": "This company received a score of 59/100 (retrieved 14-Feb-2018) in the Corporate Information Transparency Index (CITI), a system for evaluating supply chain practices in China, particularly in regards to environmental management and water pollution. Scores are calculated using government compliance data, online monitoring data, and third-party environmental audits, as well as trends in the environmental performance of factories in the company's supply chains.\n\n",
+			"url": "http://wwwen.ipe.org.cn/GreenSupplyChain/CITI.aspx",
+			"category": "Environment"
+		}, {
+			"title": "Cotton sourcing (Rank a Brand)",
+			"description": "In 2016 Rank a Brand assessed 37 major cotton-using companies on their commitment and performance with regard to sustainable cotton by looking at each company's cotton sourcing policies, use of sustainable cotton, and traceability. This company scored 9/19.5, making it one of the 2nd best performing companies.\n\n",
+			"url": "https://wwf.panda.org/wwf_news/?269811/Top-brands-failing-on-cotton-sustainability",
+			"category": "Social"
+		}, {
+			"title": "Bangladesh Safety Accord signatory",
+			"description": "This company has signed the 'Accord on Fire and Building Safety in Bangladesh', a program endorsed by Bangladeshi and international unions and labor rights organizations. The ground-breaking program includes independent safety inspections with public reports, mandatory factory building renovations, the obligation by brands and retailers to underwrite the cost of repairs, and a vital role for workers and their unions \u0096 all in a legally-binding, enforceable agreement.\n\n",
+			"url": "http://www.industriall-union.org/signatories-to-the-2018-accord",
+			"category": "Social"
+		}, {
+			"title": "Uzbek cotton commitment",
+			"description": "This company has signed the Cotton Pledge with the Responsible Sourcing Network, signifying a public commitment to not use Uzbekistani cotton. (Uzbekistan is the world's fifth largest exporter of cotton and has for decades been criticised for using the forced labour of its schoolchildren to harvest that cotton by hand under appalling conditions. This practice is organised and controlled by the central government).\n\n",
+			"url": "https://www.sourcingnetwork.org/the-cotton-pledge/",
+			"category": "Social"
+		}, {
+			"title": "B+ grade in 2018 Ethical Fashion Report",
+			"description": "B+ grade in the Baptist World Aid Australia's 'Ethical Fashion Report 2018', which grades companies, from A to F, on the strength of their systems to mitigate against the risks of forced labour, child labour, and exploitation in their supply chains. Assessment criteria fall into four main categories: policies, knowing suppliers, auditing and supplier relationships, and worker empowerment.\n\n",
+			"url": "https://baptistworldaid.org.au/resources/2018-ethical-fashion-guide/",
+			"category": "Social"
+		}, {
+			"title": "Efforts to pay a living wage",
+			"description": "Oxfam Australia's Company Tracker compares the big clothing brands on their efforts to pay a living wage to the women working in their factories. This company has released the names and addresses of at least 70% of their supplier factories, and has taken some action towards paying a living wage within a set timeframe in the supply chain.\n\n",
+			"url": "http://whatshemakes.oxfam.org.au/company-tracker/",
+			"category": "Social"
+		}, {
+			"title": "Human Rights Benchmark",
+			"description": "The 2017 Corporate Human Rights Benchmark assessed 98 of the largest publicly traded companies in the world from the Agricultural Products, Apparel and Extractives sectors on 100 human rights indicators. This company's score was in the 40-49 band range. The overall average score was 28.7%.\n\n",
+			"url": "https://www.corporatebenchmark.org/",
+			"category": "Social"
+		}, {
+			"title": "Global 100",
+			"description": "The Global 100 Most Sustainable Corporations in the World list is an extensive data-driven corporate sustainability assessment. The ranked companies are leaders in the field of a sustainable business approach. The efficiency of a company's energy, water, CO2 and waste management is measured in relation to its total sales volume. The disclosure of that information is a pre-condition for the assessment. This company ranked #20 in the 2016 Global 100.\n\n",
+			"url": "https://www.corporateknights.com/reports/2016-global-100/2016-global-100-results-14533333/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Transparency Pledge",
+			"description": "The Apparel and Footwear Supply Chain Transparency Pledge (Transparency Pledge) helps demonstrate apparel and footwear companies' commitment towards greater transparency in their manufacturing supply chain. Transparency of a company's manufacturing supply chain better enables a company to collaborate with civil society in identifying, assessing, and avoiding actual or potential adverse human rights impacts. This is a critical step that strengthens a company's human rights due diligence. This company is fully aligned with the Transparency Pledge, thereby committing to regularly publish on its website a list naming all sites that manufacture its products.\n\n",
+			"url": "https://cleanclothes.org/transparency",
+			"category": "Business Ethics"
+		}],
+		"critcism": [{
+			"title": "Workers rights in Cambodia & India",
+			"description": "This 2016 report from the Asia Floor Wage Alliance finds evidence of widespread exploitation in H&M supplier factories in Cambodia and India.\n\n",
+			"url": "http://asia.floorwage.org/workersvoices/reports/precarious-work-in-the-h-m-global-value-chain/view",
+			"category": "Social"
+		}, {
+			"title": "Workers rights in Bangladesh",
+			"description": "The average worker in the Bangladeshi garment industry is getting paid only one third of what is considered to be a living wage. Low wages and long working hours have been found to play a key role in parents' decisions to take their children out of school and let them work in various jobs. This company was identified in SOMO's 2017 report 'Branded Childhood' as contributing to this situation.\n\n",
+			"url": "http://www.stopchildlabour.eu/garment-brands-contribute-to-low-wages-long-working-hours-and-child-labour-in-bangladesh/",
+			"category": "Social"
+		}, {
+			"title": "Workers rights in India",
+			"description": "This company sources garments from factories in the Tamil Nadu region of South India. The yarn used in these factories also comes from Tamil Nadu, where large scale forced labour is used in the spinning mills. Workers in these mills are enslaved by employers who withhold their wages or lock them up in company-controlled hostels. They work long hours, face sexual harassment and do not even earn the minimum wage.\n\n",
+			"url": "http://www.indianet.nl/pdf/FabricOfSlavery.pdf",
+			"category": "Social"
+		}, {
+			"title": "Workers rights in Cambodia",
+			"description": "This company is one of the top 5 companies sourcing from Cambodia, where the minimum wage is just 21% of what Asia Floor Wage calculate to be a living wage for the country. Cambodia's garment workers endure excessive overtime, low wages, malnourishment (sometimes leading to mass fainting), violence and intimidation.\n\n",
+			"url": "https://www.cleanclothes.org/livingwage/cambodia",
+			"category": "Social"
+		}, {
+			"title": "Workers rights in India",
+			"description": "Female migrants employed in garment factories in Bangalore, India are recruited with false promises about wages and benefits, and are subjected to conditions of modern slavery. They work under high-pressure for low wages, and live in hostels with poor living conditions while their freedom of movement is severely restricted. This company was identified in the 2018 report \"Labour Without Liberty\" as sourcing garments from these factories.\n\n",
+			"url": "https://cleanclothes.org/news/2018/01/26/new-report-false-promises-and-restriction-of-movement-in-production-for-western-garment-brands.7",
+			"category": "Social"
+		}, {
+			"title": "Top 10 Corporate Criminal of 2016",
+			"description": "This company appeared on Global Exchange's list of \"10 Top Corporate Criminals of 2016\" for its failure to ensure the safety of workers in Bangladesh.\n\n",
+			"url": "https://globalexchange.org/campaigns/corporatecriminals2016/",
+			"category": "Social"
+		}, {
+			"title": "Child labour scorecard",
+			"description": "This website by German NGO Earth Link rates companies on their corporate policies against child labour, production monitoring and accusations of child labour. This company received at least one red mark, indicating poor performance in one or more of these areas.\n\n",
+			"url": "https://www.aktiv-gegen-kinderarbeit.de/firmen/firmenliste/",
+			"category": "Social"
+		}, {
+			"title": "Factory safety in Bangladesh",
+			"description": "Three years after H&M became the first signatory to the Accord on Fire and Building Safety in Bangladesh, almost all of its factories remain behind schedule in carrying out the mandated renovations, with 70% of its strategic suppliers still lacking adequate fire exits.\n\n",
+			"url": "http://www.cleanclothes.org/news/press-releases/2016/05/02/three-years-after-signing-bangladesh-accord-h-m-factories-still-not-safe",
+			"category": "Social"
+		}, {
+			"title": "Workers rights in India",
+			"description": "This 2016 investigative report by the India Committee of the Netherlands (ICN) reveals how migrant garment workers in Bangalore, South India endure appalling living conditions, low wages and restricted freedom of movement. This company pledged to take serious action after being named in the report as sourcing from Bangalore.\n\n",
+			"url": "http://www.indianet.nl/pdf/UnfreeAndUnfair.pdf",
+			"category": "Social"
+		}],
+		"information": [{
+			"title": "Water pollution in Indonesia",
+			"description": "According to Greenpeace's 2013 report \"Toxic Threads: a story of big brands and water pollution in Indonesia\", this company had a business relationship in the recent past with PT Gistex Group, the company responsible for discharging a wide range of hazardous substances directly into the Citarum River in Indonesia.\n\n",
+			"url": "http://www.greenpeace.org/international/en/publications/Campaign-reports/Toxics-reports/Polluting-Paradise/",
+			"category": "Environment"
+		}, {
+			"title": "Paper policy",
+			"description": "Following a campaign by the Rainforest Action Network in 2009, this company pledged to take concrete action to clean their supply chains of rainforest paper and sever relationships with companies (like Asia Pulp and Paper) who continue to destroy high conservation and endangered forests in Indonesia and elsewhere.\n\n",
+			"url": "http://ran.org/don%E2%80%99t-bag-indonesia%E2%80%99s-rainforests",
+			"category": "Environment"
+		}, {
+			"title": "Detox progress",
+			"description": "Greenpeace launched its \"Detox My Fashion\" campaign in 2011 to expose the direct links between global clothing brands, their suppliers and toxic water pollution around the world. As a result, many companies, including this one, committed to Greenpeace's Detox Program. The 2016 Detox Catwalk report focused on implementation, assessing the steps taken by fashion brands to fulfil their commitments using three criteria: Detox 2020 plan, PFC elimination and Transparency. This company is \"ahead of the curve and on track to meet their commitments\".\n\n",
+			"url": "http://www.greenpeace.org/international/en/campaigns/detox/fashion/detox-catwalk/",
+			"category": "Environment"
+		}, {
+			"title": "Zero discharge of hazardous chemicals ",
+			"description": "In 2011, a group of major apparel and footwear brands and retailers, including this company, made a shared commitment to help lead the industry towards zero discharge of hazardous chemicals by 2020. It includes specific commitments and timelines to realize this shared goal.\n\n",
+			"url": "http://www.roadmaptozero.com/contributors/",
+			"category": "Environment"
+		}, {
+			"title": "Climate action commitments",
+			"description": "As listed on the We Mean Business website, this company has committed to the following climate action initiatives: adopt a science-based emissions reduction target; put a price on carbon; commit to 100% renewable power; responsible corporate engagement in climate policy; report climate change information in mainstream reports as a fiduciary duty; remove commodity-driven deforestation from all supply chains by 2020.\n\n",
+			"url": "https://www.wemeanbusinesscoalition.org/companies/",
+			"category": "Environment"
+		}, {
+			"title": "CanopyStyle member",
+			"description": "This company is a member of the CanopyStyle initiative, which came about when research found that millions of trees are used every year to produce dissolving pulp, a key ingredient for fabrics such as rayon/viscose. The campaign seeks to phase out the use of endangered forest fibre in fabric.\n\n",
+			"url": "http://canopyplanet.org/campaigns/canopystyle/",
+			"category": "Environment"
+		}, {
+			"title": "Sandblasting",
+			"description": "This company has publicly banned sandblasting. Sandblasting is a dangerous and deadly process which involves workers firing sand at jeans under high pressure. It has been known to kill workers within months as the inhalation of large amounts of silica dust generated during sandblasting causes silicosis, a potentially lethal pulmonary disease.\n\n",
+			"url": "https://www.cleanclothes.org/news/2012/03/29/killer-jeans-still-being-made",
+			"category": "Social"
+		}, {
+			"title": "Use of  RDS-certified down",
+			"description": "This company has committed to making products with RDS-certified down. The Responsible Down Standard (RDS) is an independent, voluntary global standard which ensures that down and feathers come from ducks and geese that have been treated well, with no live plucking or force feeding. However the RDS has been criticised by PETA, who claim live plucking still occurs at RDS farms. (http://bit.ly/2cYTtoJ)\n\n",
+			"url": "https://responsibledown.org/find-responsible-down-standard/",
+			"category": "Animals"
+		}, {
+			"title": "Fur free",
+			"description": "This company has announced that they don't sell animal fur or are phasing in a fur-free policy.\n\n",
+			"url": "http://www.humanesociety.org/issues/fur_fashion/tips/fur-free_shopping.html",
+			"category": "Animals"
+		}, {
+			"title": "Exotic skins commitment",
+			"description": "In 2009 this company announced a permanent policy against selling any exotic skins, including those of snakes, alligators, crocodiles, lizards, ostriches, and other animals.\n\n\n",
+			"url": "http://www.peta.org/blog/h-m-pledges-shun-exotic-skins/",
+			"category": "Animals"
+		}, {
+			"title": "Angora ban",
+			"description": "This company has taken angora items off the shelves and promised not to use angora again, following a PETA campaign launched in Dec 2013 which revealed the cruelty inflicted on angora rabbits in Chinese factory farms, where 90% of the world's angora is produced.\n\n",
+			"url": "https://www.peta.org/living/fashion/more-companies-ban-angora/",
+			"category": "Animals"
+		}, {
+			"title": "Use of RWS-certified wool",
+			"description": "This company has committed to making products with RWS-certified wool. The Responsible Wool Standard (RWS) is a voluntary global standard which ensures that sheep are treated with respect to their five freedoms and also ensures best practices in the management and protection of the land. However PETA claim the RWS is a kind of greenwash. (http://bit.ly/2oH56o6)\n\n",
+			"url": "http://responsiblewool.org/find-rws-companies/",
+			"category": "Animals"
+		}, {
+			"title": "Sustainable Apparel Coalition member",
+			"description": "This company is a founding member of the Sustainable Apparel Coalition, a multi-stakeholder initiative launched in March 2011 by a group of global apparel and footwear companies and non-profit organizations (representing nearly one third of the global market share for apparel and footwear). The Coalition's goals are to reduce the apparel industry's environmental and social impact, and to develop a universal index to measure environmental and social performance of apparel products.\n\n",
+			"url": "https://apparelcoalition.org/members/?fwp_type=brand",
+			"category": "Business Ethics"
+		}, {
+			"title": "Better Cotton Initiative member",
+			"description": "This company is a member of the Better Cotton Initiative, a voluntary initiative which encourages the adoption of better management practices in cotton cultivation to achieve measurable reductions in key environmental impacts, while improving social and economic benefits for cotton farmers, small and large, worldwide.\n\n",
+			"url": "http://bettercotton.org/find-members/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Better Work Partner",
+			"description": "This company is a partner of Better Work, an initiative of the UN's International Labour Organization and the International Finance Corporation which brings diverse groups together - governments, global brands, factory owners, and unions and workers - to improve working conditions in the garment industry and make the sector more competitive.\n\n",
+			"url": "https://betterwork.org/our-partners/brands-retailers/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Textile Exchange member",
+			"description": "Textile Exchange (formerly known as Organic Exchange) is a US-based non-profit organization which operates internationally and is committed to the responsible expansion of textile sustainability across the global textile value chain, with a special focus on organic cotton.\n\n",
+			"url": "https://textileexchange.org/members/",
+			"category": "Business Ethics"
+		}, {
+			"title": "ACT participant",
+			"description": "This company is a participant in the Action, Collaboration, Transformation (ACT) initiative, an initiative between international brands and retailers, manufacturers, and trade unions to address the issue of living wages in the textile and garment supply chain.\n\n",
+			"url": "http://www.hiil.org/project/act-towards-living-wages-in-global-supply-chains",
+			"category": "Business Ethics"
+		}, {
+			"title": "I:Collect partner",
+			"description": "This company is a partner of I:Collect (aka I:CO), a global collection network to keep discarded clothing and shoes out of landfills. Customers deposit used textiles into recycling dropoff boxes at this company's stores, and I:CO arranges their environmentally-friendly removal, sorting and reuse.\n\n",
+			"url": "http://www.ico-spirit.com/en/ico-partners/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Leather Working Group member",
+			"description": "This company is a member of the Leather Working Group, a multi-stakeholder group who's objective is to develop and maintain a protocol that assesses the compliance and environmental performance of tanners and promotes sustainable and appropriate environmental business practices within the leather industry.\n\n",
+			"url": "https://www.leatherworkinggroup.com/join-us/our-members",
+			"category": "Business Ethics"
+		}, {
+			"title": "Responsible Mica Initiative member",
+			"description": "This company is a member of the Responsible Mica Initiative, a Do-Tank which aims to eradicate child labour and unacceptable working conditions in the Indian mica supply chain by joining forces across industries.\n\n",
+			"url": "https://www.responsible-mica-initiative.com/members-and-governance.html",
+			"category": "Business Ethics"
+		}, {
+			"title": "Commitment to zero deforestation 3/5",
+			"description": "The Forest 500 identifies, ranks, and tracks the governments, companies and financial institutions worldwide that together could virtually eradicate tropical deforestation. Rankings are based on their public policies and commitments and potential impacts on tropical forests in the context of forest risk commodities (palm oil, soya, beef, leather, timber, and pulp and paper). This company received a score of 3/5.\n\n",
+			"url": "https://forest500.org/rankings/companies",
+			"category": "Environment"
+		}, {
+			"title": "Cotton sourcing (As You Sow)",
+			"description": "Responsible Sourcing Network's 2014 report Cotton Sourcing Snapshot: A Survey of Corporate Practices to End Forced Labor includes survey results and ratings of 49 companies reflecting actions they are taking to stop cotton from Uzbekistan picked with forced labor from entering their supply chains. The survey offered a maximum of 100 points across 11 indicators in the categories of Policy, Public Disclosure, Engagement, and Implementation & Auditing. Only five companies scored over 50 points, 19 companies scored under 25 points, and two companies scored zero. This company received a score of 34.5.\n\n",
+			"url": "https://www.sourcingnetwork.org/cotton-sourcing-snapshot/",
+			"category": "Social"
+		}, {
+			"title": "Efforts to pay a living wage",
+			"description": "This company mentions work on living wages, but their solutions are unconvincing so far, according to this 2014 report by the Clean Clothes Campaign which grades companies on their efforts to ensure workers in its supply chain receive a living wage.\n\n",
+			"url": "https://cleanclothes.org/livingwage/tailoredwages",
+			"category": "Social"
+		}, {
+			"title": "Political boycott",
+			"description": "Call to boycott by BDS due to involvement in Israel. .\n\n",
+			"url": "http://www.bdsmovement.net/2010/swedish-fashion-chain-hm-under-pressure-680",
+			"category": "Business Ethics"
+		}, {
+			"title": "'C' rating at rankabrand.org",
+			"description": "Rank a Brand searches the websites of brands for the answers to carefully targeted questions. From this they calculate sustainability scores based on the themes of environment, climate, labor issues, and transparency. Brands owned by this company received a 'C'.\n\n",
+			"url": "https://www.rankabrand.org/sustainable-denim-jeans/Cheap+Monday",
+			"category": "Business Ethics"
+		}, {
+			"title": "Project JUST profile",
+			"description": "Project JUST examines the manufacturing practices and ethics of fashion brands. Follow the link to see this company's profile.\n",
+			"url": "https://projectjust.com/brand_hm/",
+			"category": "Information"
+		}, {
+			"title": "Facing Finance profile",
+			"description": "This company is listed on the Facing Finance website as a company that manufactures weapons or profits from violations of human rights, pollution, corruption, or international law. Follow link for further details.\n",
+			"url": "http://www.facing-finance.org/en/database/companies/hennes-mauritz/",
+			"category": "Information"
+		}]
+	}, {
+		"company": "DKNY",
+		"url": "www.donnakaran.com",
+		"rating": "Criticisims",
+		"category": ["Womens Fashion", "Luxury Brands", "Womens Fashion", "Luxury Brands"],
+		"praise": [{
+			"title": "Child labour scorecard",
+			"description": "This website by German NGO Earth Link rates companies on their corporate policies against child labour, production monitoring and accusations of child labour. This company received at least one green mark, and no red marks, indicating good performance in one or more of these areas.\n\n",
+			"url": "https://www.aktiv-gegen-kinderarbeit.de/firmen/firmenliste/",
+			"category": "Social"
+		}],
+		"critcism": [{
+			"title": "Supply chain practices in China",
+			"description": "This company received a score of 0/100 (retrieved 14-Feb-2018) in the Corporate Information Transparency Index (CITI), a system for evaluating supply chain practices in China, particularly in regards to environmental management and water pollution. Scores are calculated using government compliance data, online monitoring data, and third-party environmental audits, as well as trends in the environmental performance of factories in the company's supply chains.\n\n",
+			"url": "http://wwwen.ipe.org.cn/GreenSupplyChain/CITI.aspx",
+			"category": "Environment"
+		}],
+		"information": [{
+			"title": "SB 657 disclosure statement",
+			"description": "The California Transparency in Supply Chains Act of 2010 (SB 657) requires companies operating in California to disclose their efforts to eradicate slavery and human trafficking from their direct supply chains. Follow the link to see this company's disclosure statement.\n\n",
+			"url": "https://www.dkny.com/au/california-sb",
+			"category": "Social"
+		}, {
+			"title": "Fur free from 2019",
+			"description": "In March 2018 Morris Goldfarb, CEO of G-III, parent company of DKNY and Donna Karan, announced that both brands will be going fur-free in 2019.\n\n",
+			"url": "https://fashionunited.uk/news/fashion/donna-karan-dkny-to-go-fur-free-from-f-all-2019/2018032228774",
+			"category": "Animals"
+		}]
+	}, {
+		"company": "Gap",
+		"url": "www.gap.com",
+		"rating": "Boycott",
+		"category": ["Sportswear", "Menswear (casual)", "Womens Fashion", "Menswear (casual)", "Womens Fashion", "Menswear (casual)", "Womens Fashion"],
+		"praise": [{
+			"title": "Supply chain practices in China",
+			"description": "This company received a score of 61/100 (retrieved 14-Feb-2018) in the Corporate Information Transparency Index (CITI), a system for evaluating supply chain practices in China, particularly in regards to environmental management and water pollution. Scores are calculated using government compliance data, online monitoring data, and third-party environmental audits, as well as trends in the environmental performance of factories in the company's supply chains.\n\n",
+			"url": "http://wwwen.ipe.org.cn/GreenSupplyChain/CITI.aspx",
+			"category": "Environment"
+		}, {
+			"title": "CDP Climate A List",
+			"description": "CDP's 2016 report \"Out of the starting blocks\" reveals which companies around the world are doing the most to combat climate change. This company is included on the A List.\n\n",
+			"url": "https://www.cdp.net/en/reports/downloads/1228#page=41",
+			"category": "Environment"
+		}, {
+			"title": "Ethical Trading Initiative member",
+			"description": "The Ethical Trading Initiative (ETI) is an alliance of companies, trade unions and NGOs. They work in partnership to improve the lives of workers across the globe who make or grow consumer goods - everything from tea to T-shirts, from flowers to footballs. This company is a full member.\n\n",
+			"url": "https://www.ethicaltrade.org/about-eti/our-members",
+			"category": "Social"
+		}, {
+			"title": "77/100 in KnowTheChain Benchmark",
+			"description": "In 2016 KnowTheChain benchmarked 60 large global companies in the ICT, Food & Beverage, and Apparel & Footwear sectors on their efforts to address forced labour and human trafficking in their supply chains. This company received a score of 77/100.\n\n",
+			"url": "https://knowthechain.org/benchmarks/",
+			"category": "Social"
+		}, {
+			"title": "54/100 in Fashion Transparency Index",
+			"description": "The 2018 Fashion Transparency Index looks at how much brands know about their supply chains, what kind of policies they have in place and importantly, how much information they share with the public about their practices and products. This company scored 54%, signifying that it is publishing detailed supplier lists and the vast majority of policies, procedures and future goals. The average score was 21% and the highest score was 58%.\n\n",
+			"url": "https://issuu.com/fashionrevolution/docs/fr_fashiontransparencyindex2018",
+			"category": "Business Ethics"
+		}, {
+			"title": "Child labour scorecard",
+			"description": "This website by German NGO Earth Link rates companies on their corporate policies against child labour, production monitoring and accusations of child labour. This company received at least one green mark, and no red marks, indicating good performance in one or more of these areas.\n\n",
+			"url": "https://www.aktiv-gegen-kinderarbeit.de/firmen/firmenliste/",
+			"category": "Social"
+		}, {
+			"title": "100% on Corporate Equality Index",
+			"description": "This company is listed as having best practice on a report card on lesbian, gay, bisexual and transgender equality in corporate America.\n\n",
+			"url": "https://www.hrc.org/cei",
+			"category": "Social"
+		}, {
+			"title": "Cotton sourcing (As You Sow)",
+			"description": "Responsible Sourcing Network's 2014 report Cotton Sourcing Snapshot: A Survey of Corporate Practices to End Forced Labor includes survey results and ratings of 49 companies reflecting actions they are taking to stop cotton from Uzbekistan picked with forced labor from entering their supply chains. The survey offered a maximum of 100 points across 11 indicators in the categories of Policy, Public Disclosure, Engagement, and Implementation & Auditing. Only five companies scored over 50 points, 19 companies scored under 25 points, and two companies scored zero. Although this company scored under 50 points, it was given a special mention in the report for its efforts to address the issue of Uzbek cotton.\n\n",
+			"url": "https://www.sourcingnetwork.org/cotton-sourcing-snapshot/",
+			"category": "Social"
+		}, {
+			"title": "Uzbek cotton commitment",
+			"description": "This company has signed the Cotton Pledge with the Responsible Sourcing Network, signifying a public commitment to not use Uzbekistani cotton. (Uzbekistan is the world's fifth largest exporter of cotton and has for decades been criticised for using the forced labour of its schoolchildren to harvest that cotton by hand under appalling conditions. This practice is organised and controlled by the central government).\n\n",
+			"url": "https://www.sourcingnetwork.org/the-cotton-pledge/",
+			"category": "Social"
+		}, {
+			"title": "B- grade in 2018 Ethical Fashion Report",
+			"description": "B- grade in the Baptist World Aid Australia's 'Ethical Fashion Report 2018', which grades companies, from A to F, on the strength of their systems to mitigate against the risks of forced labour, child labour, and exploitation in their supply chains. Assessment criteria fall into four main categories: policies, knowing suppliers, auditing and supplier relationships, and worker empowerment.\n\n",
+			"url": "https://baptistworldaid.org.au/resources/2018-ethical-fashion-guide/",
+			"category": "Social"
+		}, {
+			"title": "Workers rights",
+			"description": "Oxfam Australia's 2016 Naughty or Nice list ranks the biggest and most popular clothing brands on what they are actually doing to protect and support the women making our clothes, especially on whether brands are bold enough to bring the list of factories that make their clothes out of hiding. This company has been dubbed 'Nice', as they have published a full list of their supplier factories.\n\n",
+			"url": "https://www.oxfam.org.au/what-we-do/ethical-trading-and-business/corporate-accountability/naughty-or-nice-2016/",
+			"category": "Social"
+		}, {
+			"title": "Human Rights Benchmark",
+			"description": "The 2017 Corporate Human Rights Benchmark assessed 98 of the largest publicly traded companies in the world from the Agricultural Products, Apparel and Extractives sectors on 100 human rights indicators. This company's score was in the 40-49 band range. The overall average score was 28.7%.\n\n",
+			"url": "https://www.corporatebenchmark.org/",
+			"category": "Social"
+		}],
+		"critcism": [{
+			"title": "Commitment to zero deforestation 1/5",
+			"description": "The Forest 500 identifies, ranks, and tracks the governments, companies and financial institutions worldwide that together could virtually eradicate tropical deforestation. Rankings are based on their public policies and commitments and potential impacts on tropical forests in the context of forest risk commodities (palm oil, soya, beef, leather, timber, and pulp and paper). This company received a score of 1/5.\n\n",
+			"url": "https://forest500.org/rankings/companies",
+			"category": "Environment"
+		}, {
+			"title": "Workers rights in India & Indonesia",
+			"description": "This 2016 report from the Asia Floor Wage Alliance finds evidence of widespread exploitation in GAP supplier factories in India and Indonesia.\n\n",
+			"url": "http://asia.floorwage.org/workersvoices/reports/precarious-work-in-the-gap-global-value-chain/view",
+			"category": "Social"
+		}, {
+			"title": "Public Eye Award Winner 2014",
+			"description": "Public Eye Awards are given to companies with the worst record in terms of environmental pollution and human rights violations. Gap has refused to sign the binding agreement, Accord on Fire and Building Safety in Bangladesh. Instead, it is actively undermining serious reform by promoting a non-binding corporate-controlled program.\n\n",
+			"url": "http://publiceyeawards.ch/hall-of-shame/",
+			"category": "Social"
+		}, {
+			"title": "Cotton sourcing (Rank a Brand)",
+			"description": "In 2016 Rank a Brand assessed 37 major cotton-using companies on their commitment and performance with regard to sustainable cotton by looking at each company's cotton sourcing policies, use of sustainable cotton, and traceability. This company scored 0.5/19.5, making it one of the weakest performing companies.\n\n",
+			"url": "https://wwf.panda.org/wwf_news/?269811/Top-brands-failing-on-cotton-sustainability",
+			"category": "Social"
+		}, {
+			"title": "Human rights violations",
+			"description": "This company appeared on Global Exchange's 2014 list of Most Wanted Corporate Criminals for refusal to sign the Accord of Fire and Building Safety in Bangladesh, refusal to compensate victims' families, workers' rights violations, and unsafe building conditions.\n\n",
+			"url": "https://globalexchange.org/corporate-criminals-alumni/",
+			"category": "Social"
+		}, {
+			"title": "Workers rights in Bangladesh",
+			"description": "The average worker in the Bangladeshi garment industry is getting paid only one third of what is considered to be a living wage. Low wages and long working hours have been found to play a key role in parents' decisions to take their children out of school and let them work in various jobs. This company was identified in SOMO's 2017 report 'Branded Childhood' as contributing to this situation.\n\n",
+			"url": "http://www.stopchildlabour.eu/garment-brands-contribute-to-low-wages-long-working-hours-and-child-labour-in-bangladesh/",
+			"category": "Social"
+		}, {
+			"title": "Wage theft in Haiti",
+			"description": "This 2013 report by the Workers Rights Consortium reveals that the majority of Haitian garment workers are being denied nearly a third of the wages they are legally due as a result of the factories' theft of their income. Wages for garment industry workers in Haiti are already among the lowest in the world. This company was named as being complicit in this wage theft.\n\n",
+			"url": "http://www.workersrights.org/freports/WRC%20Haiti%20Minimum%20Wage%20Report%2010%2015%2013.pdf",
+			"category": "Social"
+		}, {
+			"title": "Workers rights in Cambodia",
+			"description": "This company is one of the top 5 companies sourcing from Cambodia, where the minimum wage is just 21% of what Asia Floor Wage calculate to be a living wage for the country. Cambodia's garment workers endure excessive overtime, low wages, malnourishment (sometimes leading to mass fainting), violence and intimidation.\n\n",
+			"url": "https://www.cleanclothes.org/livingwage/cambodia",
+			"category": "Social"
+		}, {
+			"title": "Conflict minerals rating",
+			"description": "As You Sow's 2017 report, Mining the Disclosures, is a deep analysis of 206 companies' human rights performance in relation to sourcing conflict minerals from the Democratic Republic of the Congo (DRC). This company's score was below 40% (Weak).\n\n",
+			"url": "https://www.sourcingnetwork.org/mining-the-disclosures-2017",
+			"category": "Social"
+		}, {
+			"title": "Workers rights in India",
+			"description": "Female migrants employed in garment factories in Bangalore, India are recruited with false promises about wages and benefits, and are subjected to conditions of modern slavery. They work under high-pressure for low wages, and live in hostels with poor living conditions while their freedom of movement is severely restricted. This company was identified in the 2018 report \"Labour Without Liberty\" as sourcing garments from these factories.\n\n",
+			"url": "https://cleanclothes.org/news/2018/01/26/new-report-false-promises-and-restriction-of-movement-in-production-for-western-garment-brands.6",
+			"category": "Social"
+		}, {
+			"title": "38.6% in Newsweek Green Ranking 2017",
+			"description": "This company received a score of 38.6/100 in the Newsweek Green Ranking 2017, which ranks the world's largest publicly traded companies on eight indicators covering energy, greenhouse gases, water, waste, fines and penalties, linking executive pay to sustainability targets, board-level committee oversight of environmental issues and third-party audits. Ranking methodology by Corporate Knights and HIP Investor.\n\n",
+			"url": "http://www.newsweek.com/full-list-US-companies-green-rankings-2017-18",
+			"category": "Business Ethics"
+		}, {
+			"title": "Workers rights in India",
+			"description": "This 2016 investigative report by the India Committee of the Netherlands (ICN) reveals how migrant garment workers in Bangalore, South India endure appalling living conditions, low wages and restricted freedom of movement. This company pledged to take serious action after being named in the report as sourcing from Bangalore.\n\n",
+			"url": "http://www.indianet.nl/pdf/UnfreeAndUnfair.pdf",
+			"category": "Social"
+		}, {
+			"title": "Efforts to pay a living wage",
+			"description": "This company acknowledges the need for a living wage but are doing little so far to make it a reality, according to this 2014 report by the Clean Clothes Campaign which grades companies on their efforts to ensure workers in its supply chain receive a living wage.\n\n",
+			"url": "https://cleanclothes.org/livingwage/tailoredwages",
+			"category": "Social"
+		}, {
+			"title": "'D' rating at rankabrand.org",
+			"description": "Rank a Brand searches the websites of brands for the answers to carefully targeted questions. From this they calculate sustainability scores based on the themes of environment, climate, labor issues, and transparency. Brands owned by this company received a 'C'.\n\n",
+			"url": "https://www.rankabrand.org/Retailers/Gap",
+			"category": "Business Ethics"
+		}],
+		"information": [{
+			"title": "No Detox commitment",
+			"description": "Greenpeace launched their Detox Campaign in 2011 to expose the direct links between global clothing brands, their suppliers and toxic water pollution around the world. As a result, many companies have joined Greenpeace's Detox Program, which requires companies to adopt a credible, individual and public commitment to phase out the use and release of all toxic chemicals from their global supply chain and products, by 1 January 2020. This company is yet to make a commitment despite pressure from Greenpeace.\n\n",
+			"url": "http://www.greenpeace.org/international/en/campaigns/detox/fashion/detox-catwalk/",
+			"category": "Environment"
+		}, {
+			"title": "Water pollution in Indonesia",
+			"description": "According to Greenpeace's 2013 report \"Toxic Threads: a story of big brands and water pollution in Indonesia\", this company had a business relationship in the recent past with PT Gistex Group, the company responsible for discharging a wide range of hazardous substances directly into the Citarum River in Indonesia.\n\n",
+			"url": "http://www.greenpeace.org/international/en/publications/Campaign-reports/Toxics-reports/Polluting-Paradise/",
+			"category": "Environment"
+		}, {
+			"title": "Worker exploitation in India",
+			"description": "Maid in India', a 2012 report by two Dutch NGOs (SOMO and ICN) revealed how workers in the South Indian garment and textile industry continue to suffer exploitative working conditions while making garments for Western brands. While some recent improvements have been made, thousands of girls work under recruitment and employment schemes that amount to bonded labour. This company was shown to be sourcing from one or more of the four garment manufacturers investigated. While they did respond to a review request, it is unclear whether they are taking sufficient actions to address the problems. \n\n",
+			"url": "https://www.cleanclothes.at/media/common/uploads/download/maid-in-india/Sumangali_MaidinIndia_April2012.pdf",
+			"category": "Social"
+		}, {
+			"title": "Sweatshops in El Salvadore",
+			"description": "This 2011 investigative report into the Ocean Sky Apparel Factory in El Salvador reveals how workers are: paid well below living wage, illegally forced to work overtime, given unsafe drinking water, fired for attempting to unionise, and cursed at and humiliated. Their customers include Reebok, Puma, Columbia and GAP. (Listed under information due to age of report)\n\n",
+			"url": "http://www.globallabourrights.org/reports?id=0623",
+			"category": "Social"
+		}, {
+			"title": "Sweatshops in Bangladesh",
+			"description": "This 2011 report reveals young women sewing US$26.95 toddler denim shorts for GAP earn just 20 to 28 cents an hour, working 12 to 14 hour shifts, with only one day off per month. J.C.Penney and Phillips-Van Heusen are other major labels sewn at the Hameen Factory in Bangladesh. Twenty-nine workers died in a fire in this factory in Dec 2010. Management gave just $2,083.33 in compensation to the families of the dead workers. \n\n",
+			"url": "http://www.globallabourrights.org/reports?id=0630",
+			"category": "Social"
+		}, {
+			"title": "Sweatshops in Indonesia, Sri Lanka and the Philippines",
+			"description": "This 2011 report by the International Textile Garment and Leather Workers' Federation (ITGLWF) examined working conditions in 83 factories in Indonesia, Sri Lanka and the Philippines. Investigations found that widespread violations and abuses of workers' rights continue to be the norm, such as underpaying workers, long hours, forced overtime, and repression of the freedom of association. This company's brands were found to be made in one or more of the 83 factories covered in the research. \n\n",
+			"url": "https://www.ituc-csi.org/itglwf-report-an-overview-of",
+			"category": "Social"
+		}, {
+			"title": "Zero discharge of hazardous chemicals ",
+			"description": "In 2011, a group of major apparel and footwear brands and retailers, including this company, made a shared commitment to help lead the industry towards zero discharge of hazardous chemicals by 2020. It includes specific commitments and timelines to realize this shared goal.\n\n",
+			"url": "http://www.roadmaptozero.com/contributors/",
+			"category": "Environment"
+		}, {
+			"title": "Climate action commitments",
+			"description": "As listed on the We Mean Business website, this company has committed to the following climate action initiatives: adopt a science-based emissions reduction target.\n\n",
+			"url": "https://www.wemeanbusinesscoalition.org/companies/",
+			"category": "Environment"
+		}, {
+			"title": "CanopyStyle member",
+			"description": "This company is a member of the CanopyStyle initiative, which came about when research found that millions of trees are used every year to produce dissolving pulp, a key ingredient for fabrics such as rayon/viscose. The campaign seeks to phase out the use of endangered forest fibre in fabric.\n\n",
+			"url": "http://canopyplanet.org/campaigns/canopystyle/",
+			"category": "Environment"
+		}, {
+			"title": "Supply Chain Compliance",
+			"description": "This 2010 report by As You Sow, \"Toward a Safe, Just Workplace: Apparel Supply Chain Compliance Programs\", provides a scorecard and report focus on company programs such as: factory auditing, remediation, continuous improvement, collaboration, company management accountability, and transparency. This company received a B rating. \n\n",
+			"url": "https://www.asyousow.org/ays_report/toward-a-safe-just-workplace-apparel-supply-chain-compliance-programs/",
+			"category": "Social"
+		}, {
+			"title": "SAI member",
+			"description": "Social Accountability International (SAI) is a non-profit, multi-stakeholder organisation established to advance the human rights of workers by promoting decent work conditions, labor rights, and corporate social responsibility through the voluntary SA8000 Standard.\n\n",
+			"url": "http://www.sa-intl.org/index.cfm?fuseaction=Page.ViewPage&PageID=906",
+			"category": "Social"
+		}, {
+			"title": "Fur free",
+			"description": "This company has announced that they don't sell animal fur or are phasing in a fur-free policy.\n\n",
+			"url": "http://www.humanesociety.org/issues/fur_fashion/tips/fur-free_shopping.html",
+			"category": "Animals"
+		}, {
+			"title": "Angora ban",
+			"description": "This company has taken angora items off the shelves and promised not to use angora again, following a PETA campaign launched in Dec 2013 which revealed the cruelty inflicted on angora rabbits in Chinese factory farms, where 90% of the world's angora is produced.\n\n",
+			"url": "https://www.peta.org/living/fashion/more-companies-ban-angora/",
+			"category": "Animals"
+		}, {
+			"title": "Sustainable Apparel Coalition member",
+			"description": "This company is a founding member of the Sustainable Apparel Coalition, a multi-stakeholder initiative launched in March 2011 by a group of global apparel and footwear companies and non-profit organizations (representing nearly one third of the global market share for apparel and footwear). The Coalition's goals are to reduce the apparel industry's environmental and social impact, and to develop a universal index to measure environmental and social performance of apparel products.\n\n",
+			"url": "https://apparelcoalition.org/members/?fwp_type=brand",
+			"category": "Business Ethics"
+		}, {
+			"title": "Better Cotton Initiative member",
+			"description": "This company is a member of the Better Cotton Initiative, a voluntary initiative which encourages the adoption of better management practices in cotton cultivation to achieve measurable reductions in key environmental impacts, while improving social and economic benefits for cotton farmers, small and large, worldwide.\n\n",
+			"url": "http://bettercotton.org/find-members/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Better Work Partner",
+			"description": "This company is a partner of Better Work, an initiative of the UN's International Labour Organization and the International Finance Corporation which brings diverse groups together - governments, global brands, factory owners, and unions and workers - to improve working conditions in the garment industry and make the sector more competitive.\n\n",
+			"url": "https://betterwork.org/our-partners/brands-retailers/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Textile Exchange member",
+			"description": "Textile Exchange (formerly known as Organic Exchange) is a US-based non-profit organization which operates internationally and is committed to the responsible expansion of textile sustainability across the global textile value chain, with a special focus on organic cotton.\n\n",
+			"url": "https://textileexchange.org/members/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Alliance for Bangladesh Worker Safety member",
+			"description": "This company is a member of the Alliance for Bangladesh Worker Safety, a legally binding, five-year commitment to improve safety in Bangladeshi ready-made garment factories. The Alliance aims to improve worker safety in the Bangladesh garment industry by upgrading factories, educating workers and management, empowering workers, and building institutions that can enforce and maintain safe working conditions throughout Bangladesh. However it lacks an important enforcement mechanism included in the Accord on Fire and Building Safety in Bangladesh, and unlike the Accord, the Alliance has not received the endorsement of the ILO.\n\n",
+			"url": "http://www.bangladeshworkersafety.org/en/who-we-are/membership",
+			"category": "Business Ethics"
+		}, {
+			"title": "Social responsibility claims",
+			"description": "Gap has an extensive Social Responsibility section on its website, including a Code of Business Conduct and a Code of Vendor Conduct.\n\n",
+			"url": "http://www.gapinc.com/content/csr/html.html",
+			"category": "Business Ethics"
+		}, {
+			"title": "UN Global Compact participant",
+			"description": "The United Nations Global Compact asks companies to embrace, support and enact, within their sphere of influence, a set of 10 values in the areas of human rights, labour standards, the environment, and anti-corruption. However it's non-binding nature has been widely criticised, and many signatory corporations continue to violate the Compact's values.\n\n",
+			"url": "https://www.unglobalcompact.org/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Transparency Pledge",
+			"description": "The Apparel and Footwear Supply Chain Transparency Pledge (Transparency Pledge) helps demonstrate apparel and footwear companies' commitment towards greater transparency in their manufacturing supply chain. Transparency of a company's manufacturing supply chain better enables a company to collaborate with civil society in identifying, assessing, and avoiding actual or potential adverse human rights impacts. This is a critical step that strengthens a company's human rights due diligence. This company is almost fully aligned with the Transparency Pledge.\n\n",
+			"url": "https://cleanclothes.org/transparency",
+			"category": "Business Ethics"
+		}, {
+			"title": "ICP Committed Brands Program member",
+			"description": "The ICTI CARE Process is the toy industry's ethical manufacturing program aimed at ensuring safe and humane workplace environments for toy factory workers worldwide. This company is a member of the 'ICP Committed Brands Program' which means they only contract from factories that have an ICP Seal of Compliance. However human rights groups including SOMO and China Labor Watch have criticised ICTI Care, with investigators finding serious labour rights violations occurring in ICTI-certified factories.\n\n",
+			"url": "http://icti-care.org/e/content/cont_page.asp?content_id=96",
+			"category": "Social"
+		}, {
+			"title": "SB 657 disclosure statement",
+			"description": "The California Transparency in Supply Chains Act of 2010 (SB 657) requires companies operating in California to disclose their efforts to eradicate slavery and human trafficking from their direct supply chains. KnowTheChain.org has examined this company's disclosure statement and concluded that it addresses the majority of SB 657 requirements. Follow the link to see this company's disclosure statement.\n\n",
+			"url": "http://www.gapinc.com/content/csr/html/company-overview/california-transparencyinsupplychainsact.html",
+			"category": "Social"
+		}, {
+			"title": "Project JUST profile",
+			"description": "Project JUST examines the manufacturing practices and ethics of fashion brands. Follow the link to see this company's profile.\n",
+			"url": "https://projectjust.com/brand_gap/",
+			"category": "Information"
+		}, {
+			"title": "Use of nanotechnology",
+			"description": "Stain resistant and wrinkle resistant fabric by Nanotex used in some clothing lines.\n",
+			"url": "https://www.corporatewatch.org/?lid=2151",
+			"category": "Information"
+		}, {
+			"title": "Facing Finance profile",
+			"description": "This company is listed on the Facing Finance website as a company that manufactures weapons or profits from violations of human rights, pollution, corruption, or international law. Follow link for further details.\n",
+			"url": "http://www.facing-finance.org/en/database/companies/gap-2/",
+			"category": "Information"
+		}, {
+			"title": "OpenSecrets.org profile",
+			"description": "OpenSecrets.org tracks the influence of money on U.S. politics, and how that money affects policy and citizens' lives. Follow link to see this company's record of political donations, lobbying, outside spending and more.\n",
+			"url": "https://www.opensecrets.org/orgs/summary.php?id=D000000547",
+			"category": "Information"
+		}]
+	}, {
+		"company": "Nike",
+		"url": "www.nike.com",
+		"rating": "Boycott",
+		"category": ["Sportswear", "Skate Shoes", "Sports Shoes", "Snow/Skate/Surfwear", "Thongs/Sandals", "Sportswear", "Skate Shoes", "Sports Shoes", "Activewear", "Thongs/Sandals"],
+		"praise": [{
+			"title": "Child labour scorecard",
+			"description": "This website by German NGO Earth Link rates companies on their corporate policies against child labour, production monitoring and accusations of child labour. This company received at least one green mark, and no red marks, indicating good performance in one or more of these areas.\n\n",
+			"url": "https://www.aktiv-gegen-kinderarbeit.de/firmen/firmenliste/",
+			"category": "Social"
+		}, {
+			"title": "100% on Corporate Equality Index",
+			"description": "This company is listed as having best practice on a report card on lesbian, gay, bisexual and transgender equality in corporate America.\n\n",
+			"url": "https://www.hrc.org/cei",
+			"category": "Social"
+		}, {
+			"title": "Uzbek cotton commitment",
+			"description": "This company has signed the Cotton Pledge with the Responsible Sourcing Network, signifying a public commitment to not use Uzbekistani cotton. (Uzbekistan is the world's fifth largest exporter of cotton and has for decades been criticised for using the forced labour of its schoolchildren to harvest that cotton by hand under appalling conditions. This practice is organised and controlled by the central government).\n\n",
+			"url": "https://www.sourcingnetwork.org/the-cotton-pledge/",
+			"category": "Social"
+		}, {
+			"title": "B- grade in 2018 Ethical Fashion Report",
+			"description": "B- grade in the Baptist World Aid Australia's 'Ethical Fashion Report 2018', which grades companies, from A to F, on the strength of their systems to mitigate against the risks of forced labour, child labour, and exploitation in their supply chains. Assessment criteria fall into four main categories: policies, knowing suppliers, auditing and supplier relationships, and worker empowerment.\n\n",
+			"url": "https://baptistworldaid.org.au/resources/2018-ethical-fashion-guide/",
+			"category": "Social"
+		}, {
+			"title": "Human Rights Benchmark",
+			"description": "The 2017 Corporate Human Rights Benchmark assessed 98 of the largest publicly traded companies in the world from the Agricultural Products, Apparel and Extractives sectors on 100 human rights indicators. This company's score was in the 40-49 band range. The overall average score was 28.7%.\n\n",
+			"url": "https://www.corporatebenchmark.org/",
+			"category": "Social"
+		}, {
+			"title": "Sustainability strategy",
+			"description": "Deloitte developed a Zero Impact Growth Monitor that was used in 2012 to assess and rank 65 different companies' attempts to become more sustainable. Six companies reached the \"Ecosystem\" level: Puma, Nike, Nestle, Natura, Unilever and Ricoh. These pioneering companies have not only set measurable and ambitious mid- to long-term targets (beyond 2020), but have also embedded their sub-policies in a holistic strategic vision of their attempt to minimize their negative environmental and societal impacts.\n\n",
+			"url": "http://www.triplepundit.com/2012/08/deloittes-impact-growth-monitor-shows-companies-real-zeronauts/",
+			"category": "Business Ethics"
+		}, {
+			"title": "36/100 in Fashion Transparency Index",
+			"description": "The 2018 Fashion Transparency Index looks at how much brands know about their supply chains, what kind of policies they have in place and importantly, how much information they share with the public about their practices and products. This company scored 36%, signifying it is publishing suppliers lists as well as detailed information about their policies, procedures, social and environmental goals, supplier assessment and remediation processes, and is more likely to be addressing issues such as living wages and collective bargaining. The average score was 21% and the highest score was 58%.\n\n",
+			"url": "https://issuu.com/fashionrevolution/docs/fr_fashiontransparencyindex2018",
+			"category": "Business Ethics"
+		}, {
+			"title": "Transparency Pledge",
+			"description": "The Apparel and Footwear Supply Chain Transparency Pledge (Transparency Pledge) helps demonstrate apparel and footwear companies' commitment towards greater transparency in their manufacturing supply chain. Transparency of a company's manufacturing supply chain better enables a company to collaborate with civil society in identifying, assessing, and avoiding actual or potential adverse human rights impacts. This is a critical step that strengthens a company's human rights due diligence. This company is fully aligned with the Transparency Pledge, thereby committing to regularly publish on its website a list naming all sites that manufacture its products.\n\n",
+			"url": "https://cleanclothes.org/transparency",
+			"category": "Business Ethics"
+		}],
+		"critcism": [{
+			"title": "Human rights violations",
+			"description": "This company appears on Global Exchange's list of Top Ten Corporate Criminals Alumni for exploiting workers in sweatshops, failing to provide safe work environments and contracting with cotton factories that use slave labor.\n\n",
+			"url": "https://globalexchange.org/corporate-criminals-alumni/",
+			"category": "Social"
+		}, {
+			"title": "Workers rights",
+			"description": "Nike pays Tiger Woods US$25 million per year to endorse their products, while the workers who make their product receive poverty wages and endure harsh working conditions. Nike has taken some steps forward when specific cases of labour rights violations have been brought to the company's attention, but many, if not most, of their other factories continue to have oppressive work practices.\n\n",
+			"url": "http://www.oxfam.org.au/explore/workers-rights/nike",
+			"category": "Social"
+		}, {
+			"title": "Workers rights",
+			"description": "Playfair 2012, a coalition of trade unions and campaigning organisations, says this company is not doing enough to: ensure all workers are paid a living wage; allow workers to bargain collectively; eliminate short term contracts; and build long-term relationships with supplier factories.\n\n",
+			"url": "http://www.playfair2012.org.uk/what-we-want/from-companies/",
+			"category": "Social"
+		}, {
+			"title": "Sweatshops in Bangladesh",
+			"description": "This 2012 report by War on Want presents a detailed picture of the conditions faced by workers in Bangladesh, mostly women, who produce the sportswear sold by leading brands Adidas, Nike and Puma. Abuses include paying workers below the legal minimum wage in Bangladesh, excessive hours, sexual harassment and beatings. On average workers were paid just 16p an hour, with two thirds of the workers working over 60 hours a week, in clear breach of Bangladeshi law.\n\n",
+			"url": "http://www.waronwant.org/campaigns/love-fashion-hate-sweatshops/extra/extra/inform/17463-race-to-the-bottom",
+			"category": "Social"
+		}, {
+			"title": "Workers rights in China",
+			"description": "This 2014 report by the Workers Rights Consortium investigates workers' rights violations at Yue Yuen, the manufacturing arm of the largest producer of branded athletic shoes in the world, and supplier to many major footwear brands, including brands owned by this company. Violations include illegal underpayment, unpaid overtime, restricting freedom to organise, and failure to provide valid employment contracts.\n\n",
+			"url": "http://www.workersrights.org/Freports/Yue%20Yuen.asp",
+			"category": "Social"
+		}, {
+			"title": "Supply chain practices in China",
+			"description": "This company received a score of 37/100 (retrieved 14-Feb-2018) in the Corporate Information Transparency Index (CITI), a system for evaluating supply chain practices in China, particularly in regards to environmental management and water pollution. Scores are calculated using government compliance data, online monitoring data, and third-party environmental audits, as well as trends in the environmental performance of factories in the company's supply chains.\n\n",
+			"url": "http://wwwen.ipe.org.cn/GreenSupplyChain/CITI.aspx",
+			"category": "Environment"
+		}, {
+			"title": "Efforts to pay a living wage",
+			"description": "This company acknowledges the need for a living wage but are doing little so far to make it a reality, according to this 2014 report by the Clean Clothes Campaign which grades companies on their efforts to ensure workers in its supply chain receive a living wage.\n\n",
+			"url": "https://cleanclothes.org/livingwage/tailoredwages",
+			"category": "Social"
+		}, {
+			"title": "Conflict minerals rating",
+			"description": "As You Sow's 2017 report, Mining the Disclosures, is a deep analysis of 206 companies' human rights performance in relation to sourcing conflict minerals from the Democratic Republic of the Congo (DRC). This company's score was above 40% (Minimal).\n\n",
+			"url": "https://www.sourcingnetwork.org/mining-the-disclosures-2017",
+			"category": "Social"
+		}, {
+			"title": "Tax avoidance",
+			"description": "This company scores Ethical Consumer's worst rating for the likely use of tax avoidance strategies, and has at least two high risk subsidiaries in tax havens.\n\n",
+			"url": "https://www.ethicalconsumer.org/ethicalcampaigns/taxjusticecampaign/taxavoidancerankings.aspx",
+			"category": "Business Ethics"
+		}, {
+			"title": "'D' rating at rankabrand.org",
+			"description": "Rank a Brand searches the websites of brands for the answers to carefully targeted questions. From this they calculate sustainability scores based on the themes of environment, climate, labor issues, and transparency. Brands owned by this company received a 'D'.\n\n",
+			"url": "https://www.rankabrand.org/sportswear-sports-shoes/Nike",
+			"category": "Business Ethics"
+		}],
+		"information": [{
+			"title": "Detox greenwasher",
+			"description": "Greenpeace launched its \"Detox My Fashion\" campaign in 2011 to expose the direct links between global clothing brands, their suppliers and toxic water pollution around the world. As a result, many companies, including this one, committed to Greenpeace's Detox Program. The 2016 Detox Catwalk report focused on implementation, assessing the steps taken by fashion brands to fulfil their commitments using three criteria: Detox 2020 plan, PFC elimination and Transparency. This company \"originally made a Detox commitment but is currently heading in the wrong direction, failing to take individual responsibility for its supply chain's hazardous chemical pollution.\"\n\n",
+			"url": "http://www.greenpeace.org/international/en/campaigns/detox/fashion/detox-catwalk/",
+			"category": "Environment"
+		}, {
+			"title": "Workers rights in Honduras",
+			"description": "Just Pay It! is a USAS campaign demanding that Nike pay workers in two Honduran factories, Hugger and Vision Tex, over $2.2 million in back-pay and legally mandated severance. \n\n",
+			"url": "http://justpayit.usas.org/the-campaign/",
+			"category": "Social"
+		}, {
+			"title": "Sweatshops in Indonesia, Sri Lanka and the Philippines",
+			"description": "This 2011 report by the International Textile Garment and Leather Workers' Federation (ITGLWF) examined working conditions in 83 factories in Indonesia, Sri Lanka and the Philippines. Investigations found that widespread violations and abuses of workers' rights continue to be the norm, such as underpaying workers, long hours, forced overtime, and repression of the freedom of association. This company's brands were found to be made in one or more of the 83 factories covered in the research. \n\n",
+			"url": "https://www.ituc-csi.org/itglwf-report-an-overview-of",
+			"category": "Social"
+		}, {
+			"title": "Child labour",
+			"description": "New research (2010) into soccer ball stitching for sports giants Adidas, Umbro, and Nike has found alarming reports of illegally low pay, child labour, and temporary contracts leaving workers vulnerable. \n\n",
+			"url": "http://www.labourbehindthelabel.org/campaigns/item/809-football-sticthers-fifa2010",
+			"category": "Social"
+		}, {
+			"title": "Cotton sourcing (As You Sow)",
+			"description": "Responsible Sourcing Network's 2014 report Cotton Sourcing Snapshot: A Survey of Corporate Practices to End Forced Labor includes survey results and ratings of 49 companies reflecting actions they are taking to stop cotton from Uzbekistan picked with forced labor from entering their supply chains. The survey offered a maximum of 100 points across 11 indicators in the categories of Policy, Public Disclosure, Engagement, and Implementation & Auditing. Only five companies scored over 50 points, 19 companies scored under 25 points, and two companies scored zero. This company received a score of 29.5.\n\n",
+			"url": "https://www.sourcingnetwork.org/cotton-sourcing-snapshot/",
+			"category": "Social"
+		}, {
+			"title": "Excessive CEO pay",
+			"description": "As You Sow's 2017 report, 'The 100 Most Overpaid CEOs', reveals the 100 most overpaid CEOs from USA's 500 largest public companies (as determined by the S&P 500 list). This company's CEO, Mark G. Parker came in at number 95 on the list, having been paid US$16,819,730 in 2015. According to the report, \"Most CEOs have come to be grossly overpaid, and that overpayment is harmful to the companies, the shareholders, the customers, the other employees, the economy, and society as a whole.\"\n\n",
+			"url": "https://www.asyousow.org/ays_report/the-100-most-overpaid-ceos-are-fund-managers-asleep-at-the-wheel/",
+			"category": "Business Ethics"
+		}, {
+			"title": "bluesign member",
+			"description": "The bluesign\u00ae Standard sets \"best practices\" for the use of chemicals and resources \u0096 including water and energy \u0096 in the textile industry. Textile manufacturers who are bluesign system partners agree to establish management systems to improve environmental performance in five key areas of the production process: resource productivity, consumer safety, water emissions, air emissions, and occupational health and safety. They regularly report their progress, are subject to on-site audits, and must meet improvement goals to maintain their status.\n\n",
+			"url": "https://www.bluesign.com/index.php?id=128",
+			"category": "Environment"
+		}, {
+			"title": "Zero discharge of hazardous chemicals ",
+			"description": "In 2011, a group of major apparel and footwear brands and retailers, including this company, made a shared commitment to help lead the industry towards zero discharge of hazardous chemicals by 2020. It includes specific commitments and timelines to realize this shared goal.\n\n",
+			"url": "http://www.roadmaptozero.com/contributors/",
+			"category": "Environment"
+		}, {
+			"title": "Trust Mark approved brands",
+			"description": "This company owns brands which have been awarded Positive Luxury's Trust Mark. To be accredited brands are assessed in the following areas: philanthropy, environmental, social, innovation, community and governance.\n\n",
+			"url": "https://www.positiveluxury.com/brands/?view=index",
+			"category": "Environment"
+		}, {
+			"title": "Climate action commitments",
+			"description": "As listed on the We Mean Business website, this company has committed to the following climate action initiatives: commit to 100% renewable power; adopt a science-based emissions reduction target.\n\n",
+			"url": "https://www.wemeanbusinesscoalition.org/companies/",
+			"category": "Environment"
+		}, {
+			"title": "FLA Accredited",
+			"description": "When joining the Fair Labor Association (FLA) this company committed to promoting and complying with international labor standards throughout their supply chain. The FLA does not accredit the company itself; rather, they accredit the company's labor compliance program. Being granted accreditation implies that their workplace standards program is substantially in compliance with the FLA Code.\n\n",
+			"url": "http://www.fairlabor.org/affiliates/participating-companies?page=1",
+			"category": "Social"
+		}, {
+			"title": "Fur free",
+			"description": "This company has announced that they don't sell animal fur or are phasing in a fur-free policy.\n\n",
+			"url": "http://www.humanesociety.org/issues/fur_fashion/tips/fur-free_shopping.html",
+			"category": "Animals"
+		}, {
+			"title": "Sustainable Apparel Coalition member",
+			"description": "This company is a founding member of the Sustainable Apparel Coalition, a multi-stakeholder initiative launched in March 2011 by a group of global apparel and footwear companies and non-profit organizations (representing nearly one third of the global market share for apparel and footwear). The Coalition's goals are to reduce the apparel industry's environmental and social impact, and to develop a universal index to measure environmental and social performance of apparel products.\n\n",
+			"url": "https://apparelcoalition.org/members/?fwp_type=brand",
+			"category": "Business Ethics"
+		}, {
+			"title": "Contract Factory Disclosure List",
+			"description": "This list was given to the International Textile, Garment and Leather Workers Federation during their campaign to force multinational buyers to disclose their suppliers to the public. Since 2005 a steady stream of brands have been releasing details of their supplier factories.\n\n",
+			"url": "https://archive.is/EyE9",
+			"category": "Business Ethics"
+		}, {
+			"title": "Better Cotton Initiative member",
+			"description": "This company is a member of the Better Cotton Initiative, a voluntary program which encourages the adoption of better management practices in cotton cultivation to achieve measurable reductions in key environmental impacts, while improving social and economic benefits for cotton farmers, small and large, worldwide.\n\n",
+			"url": "http://bettercotton.org/find-members/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Better Work Partner",
+			"description": "This company is a partner of Better Work, an initiative of the UN's International Labour Organization and the International Finance Corporation which brings diverse groups together - governments, global brands, factory owners, and unions and workers - to improve working conditions in the garment industry and make the sector more competitive.\n\n",
+			"url": "https://betterwork.org/our-partners/brands-retailers/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Textile Exchange member",
+			"description": "Textile Exchange (formerly known as Organic Exchange) is a US-based non-profit organization which operates internationally and is committed to the responsible expansion of textile sustainability across the global textile value chain, with a special focus on organic cotton.\n\n",
+			"url": "https://textileexchange.org/members/",
+			"category": "Business Ethics"
+		}, {
+			"title": "GC3 member (Green Chemistry)",
+			"description": "This company is a member of the Green Chemistry and Commerce Council (GC3), a business-to-business forum that advances the application of green chemistry and design for environment across supply chains. It provides an open forum for cross-sectoral collaboration to share information and experiences about the challenges to and opportunities for safer chemicals and products.\n\n",
+			"url": "https://www.greenchemistryandcommerce.org/membership/current-members/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Leather Working Group member",
+			"description": "This company is a member of the Leather Working Group, a multi-stakeholder group who's objective is to develop and maintain a protocol that assesses the compliance and environmental performance of tanners and promotes sustainable and appropriate environmental business practices within the leather industry.\n\n",
+			"url": "https://www.leatherworkinggroup.com/join-us/our-members",
+			"category": "Business Ethics"
+		}, {
+			"title": "UN Global Compact participant",
+			"description": "The United Nations Global Compact asks companies to embrace, support and enact, within their sphere of influence, a set of 10 values in the areas of human rights, labour standards, the environment, and anti-corruption. However it's non-binding nature has been widely criticised, and many signatory corporations continue to violate the Compact's values.\n\n",
+			"url": "https://www.unglobalcompact.org/",
+			"category": "Business Ethics"
+		}, {
+			"title": "Commitment to zero deforestation 3/5",
+			"description": "The Forest 500 identifies, ranks, and tracks the governments, companies and financial institutions worldwide that together could virtually eradicate tropical deforestation. Rankings are based on their public policies and commitments and potential impacts on tropical forests in the context of forest risk commodities (palm oil, soya, beef, leather, timber, and pulp and paper). This company received a score of 3/5.\n\n",
+			"url": "https://forest500.org/rankings/companies",
+			"category": "Environment"
+		}, {
+			"title": "SB 657 disclosure statement",
+			"description": "The California Transparency in Supply Chains Act of 2010 (SB 657) requires companies operating in California to disclose their efforts to eradicate slavery and human trafficking from their direct supply chains. KnowTheChain.org has examined this company's disclosure statement and concluded that it addresses the majority of SB 657 requirements. Follow the link to see this company's disclosure statement.\n\n",
+			"url": "http://help-en-us.nike.com/app/answers/detail/article/supply-chain/a_id/20878/p/3897",
+			"category": "Social"
+		}, {
+			"title": "Cotton sourcing (Rank a Brand)",
+			"description": "In 2016 Rank a Brand assessed 37 major cotton-using companies on their commitment and performance with regard to sustainable cotton by looking at each company's cotton sourcing policies, use of sustainable cotton, and traceability. This company scored 6.75/19.5, making it one of the better performing companies.\n\n",
+			"url": "https://wwf.panda.org/wwf_news/?269811/Top-brands-failing-on-cotton-sustainability",
+			"category": "Social"
+		}, {
+			"title": "49/100 in KnowTheChain Benchmark",
+			"description": "In 2016 KnowTheChain benchmarked 60 large global companies in the ICT, Food & Beverage, and Apparel & Footwear sectors on their efforts to address forced labour and human trafficking in their supply chains. This company received a score of 49/100.\n\n",
+			"url": "https://knowthechain.org/benchmarks/",
+			"category": "Social"
+		}, {
+			"title": "46/100 in KnowTheChain Benchmark",
+			"description": "In 2016 KnowTheChain benchmarked 60 large global companies in the ICT, Food & Beverage, and Apparel & Footwear sectors on their efforts to address forced labour and human trafficking in their supply chains. This company received a score of 46/100.\n\n",
+			"url": "https://knowthechain.org/benchmarks/",
+			"category": "Social"
+		}, {
+			"title": "58.6% in Newsweek Green Ranking 2017",
+			"description": "This company received a score of 58.6/100 in the Newsweek Green Ranking 2017, which ranks the world's largest publicly traded companies on eight indicators covering energy, greenhouse gases, water, waste, fines and penalties, linking executive pay to sustainability targets, board-level committee oversight of environmental issues and third-party audits. Ranking methodology by Corporate Knights and HIP Investor.\n\n",
+			"url": "http://www.newsweek.com/top-500-global-companies-green-rankings-2017-18",
+			"category": "Business Ethics"
+		}, {
+			"title": "Project JUST profile",
+			"description": "Project JUST examines the manufacturing practices and ethics of fashion brands. Follow the link to see this company's profile.\n",
+			"url": "https://projectjust.com/brand_nike/",
+			"category": "Information"
+		}, {
+			"title": "OpenSecrets.org profile",
+			"description": "OpenSecrets.org tracks the influence of money on U.S. politics, and how that money affects policy and citizens' lives. Follow link to see this company's record of political donations, lobbying, outside spending and more.\n",
+			"url": "https://www.opensecrets.org/orgs/summary.php?id=D000027998",
+			"category": "Information"
+		}, {
+			"title": "Play Fair company profile",
+			"description": "This 2008 report compares eight sportswear companies on their labour rights practices.\n",
+			"url": "http://www.playfair2008.org/docs/Clearing_the_Hurdles.pdf",
+			"category": "Information"
+		}]
+	}]
+}
