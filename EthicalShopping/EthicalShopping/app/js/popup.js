@@ -9,15 +9,29 @@ var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
+  // var otherPanelIdx = (i == 2) ? 2 : 1;
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
+    console.log(panel);
     if (panel.style.maxHeight){
       panel.style.maxHeight = null;
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
+    }
+    var otherPanel;
+    if (this.classList[2] == "box-praises") {
+      console.log("praise")
+      otherPanel = document.getElementById("Criticism_Box").nextElementSibling;
+    }
+    else if (this.classList[2] == "box-critism") {
+      console.log("criticism");
+      otherPanel = document.getElementById("Praise_Box").nextElementSibling;
+    }
+    if (otherPanel != null && otherPanel.style.maxHeight){
+      otherPanel.style.maxHeight = null;
+    }
+   });
 }
 
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
@@ -138,6 +152,7 @@ function updatePopup(tab){
       if (!domainFound){
           addPraises([]);
           addCritisim([]);
+          setCompanyRanking("Empty");
       }     
     })
   })

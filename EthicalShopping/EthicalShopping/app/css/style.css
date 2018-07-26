@@ -43,12 +43,12 @@
 }
 
 .brand-fix-left {
-    margin-left: 3rem;
+    margin-left: 10%;
 }
 
 .brand-fix-right {
-    margin-left: 10rem;
-    margin-right: 2rem;
+    margin-left: auto;
+    margin-right: 10%;
 }
 
 .shadow-body {
