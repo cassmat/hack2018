@@ -38,7 +38,7 @@ chrome.runtime.onInstalled.addListener(function () {
   console.log("Ethicly Extension started")
   storeCompanyData();
   //redirects to ethicly page on install
-  var newURL = "https://ethicly.com/";
+  var newURL = "https://ethicly.org/";
   chrome.tabs.create({ url: newURL });
 
   chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {

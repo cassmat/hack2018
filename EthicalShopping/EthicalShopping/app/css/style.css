@@ -1,4 +1,4 @@
-
+/* Popup css goes here*/
 .accordion {
     background-color: #eee;
     color: #444;
@@ -162,11 +162,44 @@
   border: 2px solid #fa5d5b;
 }
 
-<<<<<<< HEAD
-.profile-title { 
+.li:hover {
+    font-weight: bold;
+}
+
+/* Options CSS goes here*/
+
+.profile-continue {
+  width: 23rem;
+  height: 4rem;
+  border-radius: 4px;
+  background-color: #bfffbc;
   font-family: GillSans;
-  font-size: 48px;
-  font-weight: 600;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #429ea6;
+  margin-top: 10rem;
+  margin-right: 11rem;
+  margin-left: 9rem;
+/*  margin-left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);*/
+}
+
+.button { 
+    background-color: #ffffff;
+
+ }
+
+.profile-skip {
+  font-family: GillSans;
+  font-size: 18px;
+  background-color: #ffffff;
+  border-radius: none;
+  text-decoration: none;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -176,6 +209,24 @@
   margin-left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+}
+
+.profile-title { 
+  font-family: GillSans;
+  font-size: 48px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6b717e;
+  margin-top: 20rem;
+  margin-right: 10rem;
+  margin-left: 15rem;
+ /* margin-top: 20rem;
+  margin-left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);*/
  }
 
 .profile-detail-text {
@@ -186,12 +237,12 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
+  text-align: center;
   color: #6b717e;
-  margin-left: 50%;
-  margin-right: -50%;
-  margin-bottom: 75px;
-  transform: translate(-50%, -50%);
-
+  margin-top: 1rem;
+  margin-right: 10rem;
+  margin-left: 14rem;
+  margin-bottom: 3rem;
 }
 
 .profile-sentence-text {
@@ -203,6 +254,9 @@
   line-height: 1.42;
   letter-spacing: normal;
   color: #6b717e;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .profile-alginment {
@@ -216,21 +270,26 @@
 
 /* Product Dropdown Button */
 .product-dropbtn {
-    background-color: #4CAF50;
-    height: 5px;
+    background-color: #429ea6;
+    height: 1px;
     width: 16rem;
     color: white;
-    margin-top: 2rem;
+    margin-top: 3.5rem;
     margin-left: 1rem;
+    margin-right: 1rem;
     font-size: 16px;
     border: none;
 }
 
 /* Impact Dropdown Button */
 .impact-dropbtn {
-    background-color: #4CAF50;
+    background-color: #429ea6;
+    height: 1px;
+    width: 16rem;
     color: white;
-    padding: 16px;
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     font-size: 16px;
     border: none;
 }
@@ -298,6 +357,3 @@
 .product-dropdown:hover .product-dropbtn {background-color: #3e8e41;}
 .impact-dropdown:hover .impact-dropbtn {background-color: #3e8e41;}
 
-.li:hover {
-    font-weight: bold;
-}
