@@ -15,7 +15,9 @@ var domains = {
         'www.hm.com',
         'www.calvinklein.us',
         'www.donnakaran.com',
-        'shop.diesel.com']
+        'gap.com',
+        'shop.diesel.com',
+        'nike.com']
 };
 var companyURLMap = {
     'google.com': 'Google',
@@ -23,12 +25,13 @@ var companyURLMap = {
     'global.cue.cc': 'Cue',
     'https://mightygoodundies.com.au/': 'Mighty Good Undies',
     'https://www.marc-o-polo.com': 'Marco Polo',
-    'www.levi.com': "Levi's",
+    'www.levi.com': "Levi Strauss & Co",
     'www.hm.com': 'H&M',
-    'www.calvinklein.us': 'Clavin Klein',
+    'www.calvinklein.us': 'Calvin Klein',
     'www.donnakaran.com': 'DKNY',
-    'www.donnakaran.com': 'Gap',
-    'shop.diesel.com': 'Diesel'
+    'gap.com': 'Gap',
+    'shop.diesel.com': 'Diesel',
+    'nike.com': 'Nike'
 };
 
 
@@ -83,6 +86,7 @@ chrome.browserAction.onClicked.addListener(function () {
     chrome.browserAction.setPopup({ "popup": "popup.html" });
 });
 
+// see if current URL matches one of known companies
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
     var foundDomain = false;
     var domainName;
@@ -106,6 +110,7 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
     })
 });
 
+// if we recognize domain name, update the badge to reflect company rating
 function domainFound(domainName) {
     var companyName = companyURLMap[domainName];
     var rating;
@@ -117,7 +122,6 @@ function domainFound(domainName) {
         companyData = companyData["companyToData"];
         company = companyData[companyName];
         rating = company["rating"];
-        console.log(rating);
         switch (rating) {
             case 'Praises, No Criticisms':
                 letterGrade = 'A';
@@ -138,13 +142,12 @@ function domainFound(domainName) {
             case 'Boycott':
                 letterGrade = 'F';
                 gradeColor = '#FA5D5B';
+                break;
             default:
                 letterGrade = '?';
                 gradeColor = '#B1B3B6';
         }
         chrome.browserAction.setBadgeText({ text: letterGrade });
         chrome.browserAction.setBadgeBackgroundColor({ color: gradeColor });
-        console.log(letterGrade);
-        console.log(gradeColor);
     });
 }
