@@ -34,13 +34,13 @@ var companyURLMap = {
     'nike.com': 'Nike'
 };
 
-
 chrome.runtime.onInstalled.addListener(function () {
   console.log("Ethicly Extension started")
   storeCompanyData();
-  //redirects to developer page on install
-  var newURL = "https://developer.chrome.com/";
+  //redirects to ethicly page on install
+  var newURL = "https://ethicly.com/";
   chrome.tabs.create({ url: newURL });
+
   chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
     chrome.declarativeContent.onPageChanged.addRules([{
       conditions: [new chrome.declarativeContent.PageStateMatcher({
@@ -57,7 +57,7 @@ chrome.runtime.onInstalled.addListener(function () {
 
 //get json data from file and store as key value pairs by company name.
 function storeCompanyData(){
-  fetch(chrome.extension.getURL('data/company_data.json'))
+  fetch(chrome.extension.getURL('data/sample_data.json'))
         .then((resp) => resp.json())
         .then(function (jsonData) {
           var urlToCompany = {};
@@ -71,12 +71,14 @@ function storeCompanyData(){
             "praise" : obj["praise"], "criticism": obj["critcism"], "information" : obj["information"]};
             companyToData[obj["company"]] = value;
           }
+          console.log(urlToCompany);
+          console.log(companyToData);
           chrome.storage.local.set({"urlToCompany" : urlToCompany});
           chrome.storage.local.set({"companyToData" : companyToData});
         })
 }
 
-function getData(key, callback){
+function getData(key, callback) {
   chrome.storage.local.get([key], function(obj) {
     callback(obj);
   })
@@ -109,6 +111,31 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
         }
     })
 });
+
+chrome.tabs.onActivated.addListener(function (activeInfo) {
+  chrome.tabs.get(activeInfo.tabId, function(tab) {
+      var foundDomain = false;
+      var domainName;
+      var companyNames;
+
+      getData("urlToCompany", function (companyNames) {
+          companyNames = domains["companyList"];
+          companyNames.forEach(function (company) {
+              if (tab.url.includes(company)) {
+                  foundDomain = true;
+                  domainName = company;
+              }
+          });
+
+          if (foundDomain) {
+              domainFound(domainName);
+          }
+          else {
+              chrome.browserAction.setBadgeText({ text: "" });
+          }
+      })
+  });
+})
 
 // if we recognize domain name, update the badge to reflect company rating
 function domainFound(domainName) {

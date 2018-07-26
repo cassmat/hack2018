@@ -72,7 +72,7 @@
 }
 
 .font-name {
-    font-family: GillSans;
+    font: GillSans;
     font-size: 24px;
     font-weight: normal;
     font-style: normal;
@@ -83,7 +83,7 @@
 }
 
 .font-description {
-    font-family: GillSans;
+    font: GillSans;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -94,7 +94,7 @@
 }
 
 .font-praises { 
-    font-family: GillSans;
+    font: GillSans;
     font-size: 24px;
     font-weight: normal;
     font-style: normal;
@@ -105,7 +105,7 @@
  }
 
  .font-critism { 
-    font-family: GillSans;
+    font: GillSans;
     font-size: 24px;
     font-weight: normal;
     font-style: normal;
@@ -128,7 +128,7 @@
  }
 
 .font-list {
-  font-family: GillSans;
+  font: GillSans;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -162,6 +162,7 @@
   border: 2px solid #fa5d5b;
 }
 
+<<<<<<< HEAD
 .profile-title { 
   font-family: GillSans;
   font-size: 48px;
@@ -297,3 +298,6 @@
 .product-dropdown:hover .product-dropbtn {background-color: #3e8e41;}
 .impact-dropdown:hover .impact-dropbtn {background-color: #3e8e41;}
 
+.li:hover {
+    font-weight: bold;
+}
