@@ -13,7 +13,7 @@
 }
 
 .active, .accordion:hover {
-    background-color: #ccc;
+    filter: brightness(85%);
 }
 
 .panel {

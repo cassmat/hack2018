@@ -34,13 +34,13 @@ var companyURLMap = {
     'nike.com': 'Nike'
 };
 
-
 chrome.runtime.onInstalled.addListener(function () {
   console.log("Ethicly Extension started")
   storeCompanyData();
-  //redirects to developer page on install
-  var newURL = "https://developer.chrome.com/";
+  //redirects to ethicly page on install
+  var newURL = "https://ethicly.com/";
   chrome.tabs.create({ url: newURL });
+
   chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
     chrome.declarativeContent.onPageChanged.addRules([{
       conditions: [new chrome.declarativeContent.PageStateMatcher({
@@ -78,7 +78,7 @@ function storeCompanyData(){
         })
 }
 
-function getData(key, callback){
+function getData(key, callback) {
   chrome.storage.local.get([key], function(obj) {
     callback(obj);
   })
@@ -111,6 +111,31 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
         }
     })
 });
+
+chrome.tabs.onActivated.addListener(function (activeInfo) {
+  chrome.tabs.get(activeInfo.tabId, function(tab) {
+      var foundDomain = false;
+      var domainName;
+      var companyNames;
+
+      getData("urlToCompany", function (companyNames) {
+          companyNames = domains["companyList"];
+          companyNames.forEach(function (company) {
+              if (tab.url.includes(company)) {
+                  foundDomain = true;
+                  domainName = company;
+              }
+          });
+
+          if (foundDomain) {
+              domainFound(domainName);
+          }
+          else {
+              chrome.browserAction.setBadgeText({ text: "" });
+          }
+      })
+  });
+})
 
 // if we recognize domain name, update the badge to reflect company rating
 function domainFound(domainName) {
