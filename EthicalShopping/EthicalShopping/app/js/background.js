@@ -56,7 +56,7 @@ chrome.runtime.onInstalled.addListener(function () {
 });
 
 //get json data from file and store as key value pairs by company name.
-function storeCompanyData(){
+function storeCompanyData() {
   fetch(chrome.extension.getURL('data/sample_data.json'))
         .then((resp) => resp.json())
         .then(function (jsonData) {
