@@ -38,7 +38,7 @@ chrome.runtime.onInstalled.addListener(function () {
   console.log("Ethicly Extension started")
   storeCompanyData();
   //redirects to ethicly page on install
-  var newURL = "https://ethicly.com/";
+  var newURL = "https://ethicly.org/";
   chrome.tabs.create({ url: newURL });
 
   chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
@@ -56,8 +56,8 @@ chrome.runtime.onInstalled.addListener(function () {
 });
 
 //get json data from file and store as key value pairs by company name.
-function storeCompanyData() {
-  fetch(chrome.extension.getURL('data/company_data.json'))
+function storeCompanyData(){
+  fetch(chrome.extension.getURL('data/sample_data.json'))
         .then((resp) => resp.json())
         .then(function (jsonData) {
           var urlToCompany = {};
@@ -71,6 +71,8 @@ function storeCompanyData() {
             "praise" : obj["praise"], "criticism": obj["critcism"], "information" : obj["information"]};
             companyToData[obj["company"]] = value;
           }
+          console.log(urlToCompany);
+          console.log(companyToData);
           chrome.storage.local.set({"urlToCompany" : urlToCompany});
           chrome.storage.local.set({"companyToData" : companyToData});
         })
