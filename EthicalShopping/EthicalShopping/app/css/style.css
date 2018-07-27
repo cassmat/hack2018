@@ -180,23 +180,18 @@
   font-stretch: normal;
   text-align: center;
   color: #429ea6;
-  margin-top: 10rem;
-  margin-right: 11rem;
-  margin-left: 9rem;
+  margin-top: 5rem;
+  margin-right: 15rem;
+  margin-left: 15rem;
+  margin-bottom: 3rem;
 /*  margin-left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);*/
 }
 
-.button { 
-    background-color: #ffffff;
-
- }
-
 .profile-skip {
   font-family: GillSans;
   font-size: 18px;
-  background-color: #ffffff;
   border-radius: none;
   text-decoration: none;
   font-weight: normal;
@@ -205,10 +200,13 @@
   line-height: normal;
   letter-spacing: normal;
   color: #6b717e;
-  margin-top: 192px;
+  margin-top: 1rem;
+  margin-right: 20rem;
+  margin-left: 20rem;
+  /*margin-top: 192px;
   margin-left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
 }
 
 .profile-title { 
@@ -220,7 +218,7 @@
   line-height: normal;
   letter-spacing: normal;
   color: #6b717e;
-  margin-top: 20rem;
+  margin-top: 15rem;
   margin-right: 10rem;
   margin-left: 15rem;
  /* margin-top: 20rem;
@@ -245,7 +243,8 @@
   margin-bottom: 3rem;
 }
 
-.profile-sentence-text {
+.profile-sentence-text { 
+  float: left;
   font-family: GillSans;
   font-size: 36px;
   font-weight: normal;
@@ -254,10 +253,8 @@
   line-height: 1.42;
   letter-spacing: normal;
   color: #6b717e;
-  margin-top: 1rem;
-  margin-right: 1rem;
-  margin-left: 1rem;
-}
+  text-align: left;
+ }
 
 .profile-alginment {
     text-align: center;
@@ -272,42 +269,79 @@
 .product-dropbtn {
     background-color: #429ea6;
     height: 1px;
-    width: 16rem;
+    width: 20rem;
     color: white;
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 16px;
     border: none;
 }
 
+.row-details { 
+    width: 75rem;
+    margin-left: 10rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+ }
+
 /* Impact Dropdown Button */
 .impact-dropbtn {
     background-color: #429ea6;
     height: 1px;
-    width: 16rem;
+    width: 15rem;
     color: white;
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
     margin-left: 1rem;
-    margin-right: 1rem;
     font-size: 16px;
+    margin-right: 1rem;
+    margin-left: 1rem;
     border: none;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .product-dropdown {
   display: inline;
-  text-align: center;
+  text-align: left;
 }
 
 .impact-dropdown {
   display: inline;
-  text-align: center;
+  text-align: left;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .product-content {
-      margin-left: 1rem;
+    margin-left: 1rem;
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.93);
+    min-width: 350px;
+    max-width: 80px;
+    box-shadow: 0px 2px 4px 4px rgba(107,113,126,0.25);
+    z-index: 1000;
+    font-family: GillSans;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    color: #6b717e;
+}
+
+/* Links inside the dropdown */
+.product-content a {
+    display: block;
+    position: inline;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.impact-content {
+    margin-left: 1rem;
     display: none;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.93);
@@ -315,25 +349,15 @@
     max-width: 80px;
     box-shadow: 0px 2px 4px 4px rgba(107,113,126,0.25);
     z-index: 1000;
-}
-
-/* Links inside the dropdown */
-.product-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block
-}
-
-/* Dropdown Content (Hidden by Default) */
-.impact-content {
-    display: none;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.93);
-    min-width: 250px;
-    max-width: 80px;
-    box-shadow: 0px 2px 4px 4px rgba(107,113,126,0.25);
-    z-index: 1;
+    color: #6b717e;
+    font-family: GillSans;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    color: #6b717e;
 }
 
 /* Links inside the dropdown */
@@ -350,10 +374,10 @@
 .impact-content  a:hover {background-color: rgba(191, 255, 188, 0.4);}
 
 /* Show the dropdown menu on hover */
-.product-dropdown:hover .product-content {display: block;}
+.product-dropdown:hover .product-content {display: block; }
 .impact-dropdown:hover .impact-content {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+/* Change the background color of the dropdown button when the dropdown content is shown 
 .product-dropdown:hover .product-dropbtn {background-color: #3e8e41;}
-.impact-dropdown:hover .impact-dropbtn {background-color: #3e8e41;}
+.impact-dropdown:hover .impact-dropbtn {background-color: #3e8e41;}*/
 
